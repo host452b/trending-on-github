@@ -43,6 +43,22 @@ def _esc(s: str | None) -> str:
     )
 
 
+def _gradient_bg(value: float, vmin: float, vmax: float) -> str:
+    """Pandas-Styler-style heat: low→red, mid→transparent, high→green.
+
+    Returns an inline CSS `background:...;` declaration (or empty string
+    when there is no variation in the column).
+    """
+    if vmax <= vmin:
+        return ""
+    t = max(0.0, min(1.0, (value - vmin) / (vmax - vmin)))
+    if t < 0.5:
+        alpha = (0.5 - t) * 2 * 0.35
+        return f"background:rgba(220,60,60,{alpha:.2f});"
+    alpha = (t - 0.5) * 2 * 0.35
+    return f"background:rgba(60,180,75,{alpha:.2f});"
+
+
 def latest_snapshot(granularity: str) -> dict | None:
     folder = DATA_DIR / granularity
     if not folder.exists():
@@ -69,11 +85,24 @@ def all_daily_snapshots() -> list[dict]:
 def trending_table_html(snapshot: dict, emoji: str, title: str) -> str:
     items = snapshot["items"]
     label = snapshot["period"]["label_compact"]
+
+    # Column ranges for the heat-gradient (computed once per table).
+    stars_vals = [it["stars_total"] for it in items]
+    forks_vals = [it["forks_total"] for it in items]
+    period_vals = [it["period_stars"] for it in items]
+    s_min, s_max = (min(stars_vals), max(stars_vals)) if stars_vals else (0, 0)
+    f_min, f_max = (min(forks_vals), max(forks_vals)) if forks_vals else (0, 0)
+    p_min, p_max = (min(period_vals), max(period_vals)) if period_vals else (0, 0)
+
     rows = [
         f"<h3>{emoji} {title} — {label}</h3>",
         f'<p style="{SUBTITLE_STYLE}">'
         f"Captured at <code>{snapshot['run_date_utc']}</code> · "
-        f"{snapshot['count']} repos · sorted as GitHub ranked them."
+        f"{snapshot['count']} repos · sorted as GitHub ranked them. "
+        "Numeric columns heat-shaded per-column "
+        '(<span style="background:rgba(220,60,60,0.32);padding:0 6px">low</span>'
+        ' → '
+        '<span style="background:rgba(60,180,75,0.32);padding:0 6px">high</span>).'
         f"</p>",
         f'<table style="{TABLE_STYLE}">',
         "<tr>"
@@ -87,17 +116,20 @@ def trending_table_html(snapshot: dict, emoji: str, title: str) -> str:
         "</tr>",
     ]
     for item in items:
+        s_bg = _gradient_bg(item["stars_total"], s_min, s_max)
+        f_bg = _gradient_bg(item["forks_total"], f_min, f_max)
+        p_bg = _gradient_bg(item["period_stars"], p_min, p_max)
         rows.append(
             "<tr>"
             f'<td style="{TD_STYLE};text-align:right">{item["rank"]}</td>'
             f'<td style="{TD_STYLE}"><a href="{_esc(item["url"])}">'
             f'{_esc(item["full_name"])}</a></td>'
             f'<td style="{TD_STYLE}">{_esc(item.get("language") or "—")}</td>'
-            f'<td style="{TD_STYLE};text-align:right">'
+            f'<td style="{TD_STYLE};text-align:right;{s_bg}">'
             f'{item["stars_total"]:,}</td>'
-            f'<td style="{TD_STYLE};text-align:right">'
+            f'<td style="{TD_STYLE};text-align:right;{f_bg}">'
             f'{item["forks_total"]:,}</td>'
-            f'<td style="{TD_STYLE};text-align:right"><b>'
+            f'<td style="{TD_STYLE};text-align:right;{p_bg}"><b>'
             f'{item["period_stars"]:,}</b></td>'
             f'<td style="{TD_STYLE}">{_esc(item.get("description") or "")}</td>'
             "</tr>"
@@ -216,10 +248,19 @@ def language_breakdown_html(snapshots: dict) -> str:
         key=lambda l: -sum(c[l] for c in counters.values()),
     )
 
+    daily_vals = [counters["daily"][l] for l in all_langs]
+    weekly_vals = [counters["weekly"][l] for l in all_langs]
+    monthly_vals = [counters["monthly"][l] for l in all_langs]
+    total_vals = [d + w + m for d, w, m in zip(daily_vals, weekly_vals, monthly_vals)]
+    d_min, d_max = (min(daily_vals), max(daily_vals)) if daily_vals else (0, 0)
+    w_min, w_max = (min(weekly_vals), max(weekly_vals)) if weekly_vals else (0, 0)
+    m_min, m_max = (min(monthly_vals), max(monthly_vals)) if monthly_vals else (0, 0)
+    t_min, t_max = (min(total_vals), max(total_vals)) if total_vals else (0, 0)
+
     parts = [
         "<h3>🗣️ Language Breakdown</h3>",
         f'<p style="{SUBTITLE_STYLE}">Count of trending repos per language, '
-        "per granularity. Sorted by overall frequency.</p>",
+        "per granularity. Numeric columns heat-shaded per-column.</p>",
         f'<table style="{TABLE_STYLE}">',
         "<tr>"
         f'<th style="{TH_STYLE}">Language</th>'
@@ -229,18 +270,20 @@ def language_breakdown_html(snapshots: dict) -> str:
         f'<th style="{TH_STYLE};text-align:right">Total</th>'
         "</tr>",
     ]
-    for lang in all_langs:
-        d = counters["daily"][lang]
-        w = counters["weekly"][lang]
-        m = counters["monthly"][lang]
-        total = d + w + m
+    for lang, d, w, m, total in zip(
+        all_langs, daily_vals, weekly_vals, monthly_vals, total_vals
+    ):
+        d_bg = _gradient_bg(d, d_min, d_max)
+        w_bg = _gradient_bg(w, w_min, w_max)
+        m_bg = _gradient_bg(m, m_min, m_max)
+        t_bg = _gradient_bg(total, t_min, t_max)
         parts.append(
             "<tr>"
             f'<td style="{TD_STYLE}">{_esc(lang)}</td>'
-            f'<td style="{TD_STYLE};text-align:right">{d or ""}</td>'
-            f'<td style="{TD_STYLE};text-align:right">{w or ""}</td>'
-            f'<td style="{TD_STYLE};text-align:right">{m or ""}</td>'
-            f'<td style="{TD_STYLE};text-align:right"><b>{total}</b></td>'
+            f'<td style="{TD_STYLE};text-align:right;{d_bg}">{d or ""}</td>'
+            f'<td style="{TD_STYLE};text-align:right;{w_bg}">{w or ""}</td>'
+            f'<td style="{TD_STYLE};text-align:right;{m_bg}">{m or ""}</td>'
+            f'<td style="{TD_STYLE};text-align:right;{t_bg}"><b>{total}</b></td>'
             "</tr>"
         )
     parts.append("</table>")
@@ -272,11 +315,15 @@ def persistent_trenders_html(daily_snapshots: list[dict]) -> str:
             f'<p style="{SUBTITLE_STYLE}">No repo has appeared on daily '
             "trending more than once yet.</p>"
         )
+    star_vals = [it["stars_total"] for _, it in multi]
+    count_vals = [c for c, _ in multi]
+    s_min, s_max = min(star_vals), max(star_vals)
+    c_min, c_max = min(count_vals), max(count_vals)
     parts = [
         "<h3>🔁 Persistent Trenders</h3>",
         f'<p style="{SUBTITLE_STYLE}">'
         f"Repos that appeared on daily trending across the most days "
-        f"(of {len(daily_snapshots)} snapshots).</p>",
+        f"(of {len(daily_snapshots)} snapshots). Numeric columns heat-shaded.</p>",
         f'<table style="{TABLE_STYLE}">',
         "<tr>"
         f'<th style="{TH_STYLE}">Repo</th>'
@@ -286,14 +333,16 @@ def persistent_trenders_html(daily_snapshots: list[dict]) -> str:
         "</tr>",
     ]
     for count, it in multi:
+        s_bg = _gradient_bg(it["stars_total"], s_min, s_max)
+        c_bg = _gradient_bg(count, c_min, c_max)
         parts.append(
             "<tr>"
             f'<td style="{TD_STYLE}"><a href="{_esc(it["url"])}">'
             f'{_esc(it["full_name"])}</a></td>'
             f'<td style="{TD_STYLE}">{_esc(it.get("language") or "—")}</td>'
-            f'<td style="{TD_STYLE};text-align:right">'
+            f'<td style="{TD_STYLE};text-align:right;{s_bg}">'
             f'{it["stars_total"]:,}</td>'
-            f'<td style="{TD_STYLE};text-align:right"><b>{count}</b></td>'
+            f'<td style="{TD_STYLE};text-align:right;{c_bg}"><b>{count}</b></td>'
             "</tr>"
         )
     parts.append("</table>")

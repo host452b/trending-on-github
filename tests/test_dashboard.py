@@ -77,6 +77,35 @@ def test_trending_table_includes_every_item(dashboard_mod):
     assert "<table" in html and "</table>" in html
 
 
+def test_gradient_bg_endpoints_and_midpoint(dashboard_mod):
+    # min → red
+    low = dashboard_mod._gradient_bg(0, 0, 100)
+    assert "rgba(220,60,60" in low
+    # max → green
+    high = dashboard_mod._gradient_bg(100, 0, 100)
+    assert "rgba(60,180,75" in high
+    # midpoint → transparent (alpha approaches 0)
+    mid = dashboard_mod._gradient_bg(50, 0, 100)
+    assert "0.00" in mid or mid == ""
+    # no variation → no gradient
+    flat = dashboard_mod._gradient_bg(5, 5, 5)
+    assert flat == ""
+
+
+def test_trending_table_applies_heat_gradient(dashboard_mod):
+    snap = _make_snapshot(
+        "daily",
+        [
+            _item(1, "a", "b", stars_total=10, forks_total=1, period_stars=5),
+            _item(2, "c", "d", stars_total=1000, forks_total=999, period_stars=500),
+        ],
+    )
+    html = dashboard_mod.trending_table_html(snap, "🔥", "Daily")
+    # Both endpoints of the heat gradient should appear in the rendered table.
+    assert "rgba(220,60,60" in html  # the low row gets red
+    assert "rgba(60,180,75" in html  # the high row gets green
+
+
 def test_trending_table_escapes_dangerous_strings(dashboard_mod):
     snap = _make_snapshot(
         "daily",
