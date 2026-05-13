@@ -1,0 +1,56 @@
+# trending-on-github
+
+A daily cron'd GitHub Action that scrapes
+[github.com/trending](https://github.com/trending) and commits the
+results as JSON snapshots back to this repository. The git history
+becomes a free, versioned time-series dataset of trending repos
+(["git scraping"](https://simonwillison.net/2020/Oct/9/git-scraping/) —
+Simon Willison, 2020).
+
+## What it captures
+
+Three granularities, captured once a day at 00:30 UTC:
+
+| Granularity | URL                                                | Window       |
+|-------------|----------------------------------------------------|--------------|
+| daily       | `https://github.com/trending?since=daily`         | rolling 24h  |
+| weekly      | `https://github.com/trending?since=weekly`        | rolling 7d   |
+| monthly     | `https://github.com/trending?since=monthly`       | rolling 30d  |
+
+Per repo, each snapshot records: rank, owner, name, description,
+language, total stars, total forks, the count of avatar tiles shown in
+the "Built by" section, the period stars, and a human-readable
+`period_stars_label` with the concrete date range substituted for
+"today" / "this week" / "this month".
+
+Dataset schema and example queries live in
+[`data/README.md`](data/README.md).
+
+## Local development
+
+```bash
+python3.12 -m venv .venv
+.venv/bin/pip install -r requirements-dev.txt
+.venv/bin/pytest -q
+
+# Run a single granularity into ./tmp
+.venv/bin/python -m trending --granularity daily --out tmp --verbose
+```
+
+## Layout
+
+```
+src/trending/    # package: fetch, parse, period, snapshot, __main__
+tests/           # pytest + frozen HTML fixtures
+data/            # accumulated snapshots (the dataset)
+.github/workflows/
+  scrape.yml     # daily cron
+  test.yml       # CI on push/PR
+docs/superpowers/specs/   # design spec
+docs/superpowers/plans/   # implementation plan
+```
+
+## CI footprint
+
+≈ 25 s wall-clock per scrape run → ~13 min/month. Well under any
+GitHub Actions free tier.
