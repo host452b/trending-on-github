@@ -45,7 +45,7 @@ that bucket are preserved in `git log -p data/weekly/2026-W20.json`.
       "forks_total": 28901,
       "contributors_visible": 5,
       "period_stars": 1273,
-      "period_stars_label": "1,273 stars 2026-05-13"
+      "period_stars_label": "1,273 stars 2026.05.13"
     }
   ]
 }
