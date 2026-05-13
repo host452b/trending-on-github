@@ -20,6 +20,7 @@ jobs:
           cache: "pip"
           cache-dependency-path: requirements.txt
       - run: pip install -r requirements.txt
+      - run: pip install -e .
       - name: Scrape daily
         run: python -m trending --granularity daily --out data
         continue-on-error: true
