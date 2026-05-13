@@ -1,9 +1,10 @@
 """Atomic JSON snapshot writer.
 
 Why atomic: a crashed run mid-write must not leave a half-written
-.json file in the dataset. We write to a NamedTemporaryFile in the
-same directory (so os.replace is atomic on the same filesystem) and
-swap it into place only after a successful serialisation.
+.json file in the dataset. We use tempfile.mkstemp() to create a
+temp file in the same directory as the target (so os.replace is
+atomic on the same filesystem) and swap it into place only after
+a successful serialisation.
 """
 
 from __future__ import annotations
@@ -66,7 +67,8 @@ def write_snapshot(
     except Exception:
         try:
             os.unlink(tmp_path)
-        except FileNotFoundError:
+        except OSError:
+            # Best-effort cleanup; never suppress the original exception.
             pass
         raise
     return target

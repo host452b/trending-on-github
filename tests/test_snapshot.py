@@ -106,3 +106,16 @@ def test_write_snapshot_is_atomic_on_failure(tmp_path: Path, monkeypatch):
     # No leftover temp files in the target directory
     leftovers = [p for p in target.parent.iterdir() if p != target]
     assert leftovers == []
+
+
+def test_write_snapshot_with_empty_records(tmp_path: Path):
+    run_dt = datetime(2026, 5, 13, 0, 30, 0, tzinfo=timezone.utc)
+    out = write_snapshot(
+        out_dir=tmp_path,
+        granularity="daily",
+        run_dt=run_dt,
+        records=[],
+    )
+    data = json.loads(out.read_text())
+    assert data["count"] == 0
+    assert data["items"] == []
