@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 from trending.fetch import fetch_trending
@@ -23,7 +23,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--granularity", required=True, choices=_GRANULARITIES)
     p.add_argument("--out", required=True, type=Path,
                    help="Output directory (e.g. ./data)")
-    p.add_argument("--run-date", default=None,
+    p.add_argument("--run-date", default=None, type=date.fromisoformat,
+                   metavar="YYYY-MM-DD",
                    help="UTC date YYYY-MM-DD; defaults to today (UTC)")
     p.add_argument("--verbose", "-v", action="store_true")
     args = p.parse_args(argv)
@@ -33,8 +34,11 @@ def main(argv: list[str] | None = None) -> int:
         format="%(levelname)s %(name)s: %(message)s",
     )
 
-    if args.run_date:
-        run_dt = datetime.fromisoformat(args.run_date).replace(tzinfo=timezone.utc)
+    if args.run_date is not None:
+        run_dt = datetime(
+            args.run_date.year, args.run_date.month, args.run_date.day,
+            tzinfo=timezone.utc,
+        )
     else:
         run_dt = datetime.now(tz=timezone.utc).replace(microsecond=0)
 
