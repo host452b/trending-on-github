@@ -1,11 +1,11 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-05-13T11:07:35Z",
+  "run_date_utc": "2026-05-14T04:27:46Z",
   "period": {
-    "start": "2026-04-14",
-    "end": "2026-05-13",
-    "label_iso": "2026-04-14/2026-05-13",
-    "label_compact": "2026.04.14-2026.05.13"
+    "start": "2026-04-15",
+    "end": "2026-05-14",
+    "label_iso": "2026-04-15/2026-05-14",
+    "label_compact": "2026.04.15-2026.05.14"
   },
   "source_url": "https://github.com/trending?since=monthly",
   "count": 16,
@@ -18,11 +18,11 @@
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": null,
-      "stars_total": 127812,
-      "forks_total": 12977,
+      "stars_total": 128650,
+      "forks_total": 13049,
       "contributors_visible": 0,
-      "period_stars": 112357,
-      "period_stars_label": "112,357 stars 2026.04.14-2026.05.13"
+      "period_stars": 108189,
+      "period_stars_label": "108,189 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "stars_total": 77695,
-      "forks_total": 6701,
+      "stars_total": 79486,
+      "forks_total": 6855,
       "contributors_visible": 0,
-      "period_stars": 60612,
-      "period_stars_label": "60,612 stars 2026.04.14-2026.05.13"
+      "period_stars": 63639,
+      "period_stars_label": "63,639 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 3,
@@ -46,11 +46,11 @@
       "url": "https://github.com/Alishahryar1/free-claude-code",
       "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
       "language": "Python",
-      "stars_total": 24249,
-      "forks_total": 3589,
+      "stars_total": 24418,
+      "forks_total": 3631,
       "contributors_visible": 0,
-      "period_stars": 22285,
-      "period_stars_label": "22,285 stars 2026.04.14-2026.05.13"
+      "period_stars": 22569,
+      "period_stars_label": "22,569 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 4,
@@ -60,11 +60,11 @@
       "url": "https://github.com/lsdefine/GenericAgent",
       "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
       "language": "Python",
-      "stars_total": 11154,
-      "forks_total": 1274,
+      "stars_total": 11256,
+      "forks_total": 1283,
       "contributors_visible": 0,
-      "period_stars": 10192,
-      "period_stars_label": "10,192 stars 2026.04.14-2026.05.13"
+      "period_stars": 10322,
+      "period_stars_label": "10,322 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 5,
@@ -74,11 +74,11 @@
       "url": "https://github.com/AIDC-AI/Pixelle-Video",
       "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
       "language": "Python",
-      "stars_total": 15887,
-      "forks_total": 2282,
+      "stars_total": 16319,
+      "forks_total": 2347,
       "contributors_visible": 0,
-      "period_stars": 12025,
-      "period_stars_label": "12,025 stars 2026.04.14-2026.05.13"
+      "period_stars": 12334,
+      "period_stars_label": "12,334 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 6,
@@ -88,11 +88,11 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars_total": 147870,
-      "forks_total": 23242,
+      "stars_total": 148996,
+      "forks_total": 23481,
       "contributors_visible": 0,
-      "period_stars": 84327,
-      "period_stars_label": "84,327 stars 2026.04.14-2026.05.13"
+      "period_stars": 74950,
+      "period_stars_label": "74,950 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 7,
@@ -102,11 +102,11 @@
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
       "language": "Python",
-      "stars_total": 8959,
-      "forks_total": 735,
+      "stars_total": 9309,
+      "forks_total": 830,
       "contributors_visible": 0,
-      "period_stars": 7910,
-      "period_stars_label": "7,910 stars 2026.04.14-2026.05.13"
+      "period_stars": 8290,
+      "period_stars_label": "8,290 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 8,
@@ -116,11 +116,11 @@
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "Shell",
-      "stars_total": 40710,
-      "forks_total": 4488,
+      "stars_total": 41188,
+      "forks_total": 4534,
       "contributors_visible": 0,
-      "period_stars": 27115,
-      "period_stars_label": "27,115 stars 2026.04.14-2026.05.13"
+      "period_stars": 26582,
+      "period_stars_label": "26,582 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 9,
@@ -130,11 +130,11 @@
       "url": "https://github.com/Tracer-Cloud/opensre",
       "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
       "language": "Python",
-      "stars_total": 4950,
-      "forks_total": 624,
+      "stars_total": 5015,
+      "forks_total": 633,
       "contributors_visible": 0,
-      "period_stars": 4343,
-      "period_stars_label": "4,343 stars 2026.04.14-2026.05.13"
+      "period_stars": 4449,
+      "period_stars_label": "4,449 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 10,
@@ -144,11 +144,11 @@
       "url": "https://github.com/Z4nzu/hackingtool",
       "description": "ALL IN ONE Hacking Tool For Hackers",
       "language": "Python",
-      "stars_total": 74009,
-      "forks_total": 8351,
+      "stars_total": 74171,
+      "forks_total": 8361,
       "contributors_visible": 0,
-      "period_stars": 16078,
-      "period_stars_label": "16,078 stars 2026.04.14-2026.05.13"
+      "period_stars": 16288,
+      "period_stars_label": "16,288 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 11,
@@ -158,11 +158,11 @@
       "url": "https://github.com/soxoj/maigret",
       "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
       "language": "Python",
-      "stars_total": 28293,
-      "forks_total": 2037,
+      "stars_total": 28468,
+      "forks_total": 2047,
       "contributors_visible": 0,
-      "period_stars": 8676,
-      "period_stars_label": "8,676 stars 2026.04.14-2026.05.13"
+      "period_stars": 8986,
+      "period_stars_label": "8,986 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 12,
@@ -172,11 +172,11 @@
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "stars_total": 74697,
-      "forks_total": 14556,
+      "stars_total": 75062,
+      "forks_total": 14634,
       "contributors_visible": 0,
-      "period_stars": 24880,
-      "period_stars_label": "24,880 stars 2026.04.14-2026.05.13"
+      "period_stars": 25162,
+      "period_stars_label": "25,162 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 13,
@@ -186,11 +186,11 @@
       "url": "https://github.com/anthropics/financial-services",
       "description": null,
       "language": "Python",
-      "stars_total": 21940,
-      "forks_total": 2955,
+      "stars_total": 22369,
+      "forks_total": 3043,
       "contributors_visible": 0,
-      "period_stars": 13692,
-      "period_stars_label": "13,692 stars 2026.04.14-2026.05.13"
+      "period_stars": 14661,
+      "period_stars_label": "14,661 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 14,
@@ -200,11 +200,11 @@
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
       "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "language": "JavaScript",
-      "stars_total": 13090,
-      "forks_total": 2310,
+      "stars_total": 13327,
+      "forks_total": 2339,
       "contributors_visible": 0,
-      "period_stars": 8544,
-      "period_stars_label": "8,544 stars 2026.04.14-2026.05.13"
+      "period_stars": 8573,
+      "period_stars_label": "8,573 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 15,
@@ -214,11 +214,11 @@
       "url": "https://github.com/multica-ai/multica",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "language": "TypeScript",
-      "stars_total": 27934,
-      "forks_total": 3355,
+      "stars_total": 28156,
+      "forks_total": 3388,
       "contributors_visible": 0,
-      "period_stars": 19082,
-      "period_stars_label": "19,082 stars 2026.04.14-2026.05.13"
+      "period_stars": 17759,
+      "period_stars_label": "17,759 stars 2026.04.15-2026.05.14"
     },
     {
       "rank": 16,
@@ -228,11 +228,11 @@
       "url": "https://github.com/hugohe3/ppt-master",
       "description": "AI generates natively editable PPTX from any document — real PowerPoint shapes with native animations, not images · by Hugo He",
       "language": "Python",
-      "stars_total": 15657,
-      "forks_total": 1534,
+      "stars_total": 16029,
+      "forks_total": 1567,
       "contributors_visible": 0,
-      "period_stars": 10574,
-      "period_stars_label": "10,574 stars 2026.04.14-2026.05.13"
+      "period_stars": 10925,
+      "period_stars_label": "10,925 stars 2026.04.15-2026.05.14"
     }
   ]
 }
