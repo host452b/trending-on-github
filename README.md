@@ -50,6 +50,7 @@ src/trending/         # package: fetch, parse, period, snapshot, __main__
 tests/                # pytest + frozen HTML fixtures
 data/                 # accumulated snapshots (the dataset)
 build_dashboard.py    # static-notebook generator
+build_markdown.py     # cumulative human-readable markdown generator
 dashboard.ipynb       # auto-regenerated rendered overview
 .github/workflows/
   scrape.yml          # daily cron
