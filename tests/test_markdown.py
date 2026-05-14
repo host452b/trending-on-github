@@ -161,3 +161,59 @@ def test_build_section_renders_null_language_and_description(md_mod):
     )
     # Empty cells render cleanly (just spaces between pipes)
     assert "| — |" in section  # language placeholder
+
+
+def test_build_file_orders_sections_newest_first(md_mod, tmp_path):
+    snap_old = _make_snapshot("daily", [_item(1, "a", "b")])
+    snap_old["period"]["start"] = "2026-05-12"
+    snap_old["run_date_utc"] = "2026-05-12T00:30:00Z"
+    snap_new = _make_snapshot("daily", [_item(1, "c", "d")])
+    snap_new["period"]["start"] = "2026-05-14"
+    snap_new["run_date_utc"] = "2026-05-14T00:30:00Z"
+
+    body = md_mod.build_file(
+        granularity="daily",
+        title="Daily Trending",
+        emoji="🔥",
+        pairs=[
+            (Path("daily/2026-05-12.json"), snap_old),
+            (Path("daily/2026-05-14.json"), snap_new),
+        ],
+    )
+    new_idx = body.find("2026-05-14 — 🔥")
+    old_idx = body.find("2026-05-12 — 🔥")
+    assert new_idx != -1 and old_idx != -1
+    assert new_idx < old_idx  # newer appears earlier in the file
+
+
+def test_build_file_header_summary_counts_snapshots(md_mod):
+    snap_a = _make_snapshot("daily", [_item(1, "a", "b")])
+    snap_a["period"]["start"] = "2026-05-12"
+    snap_b = _make_snapshot("daily", [_item(1, "c", "d")])
+    snap_b["period"]["start"] = "2026-05-14"
+
+    body = md_mod.build_file(
+        granularity="daily",
+        title="Daily Trending",
+        emoji="🔥",
+        pairs=[
+            (Path("daily/2026-05-12.json"), snap_a),
+            (Path("daily/2026-05-14.json"), snap_b),
+        ],
+    )
+    assert body.startswith("# Daily Trending — accumulated snapshots")
+    assert "**2 snapshots**" in body
+    assert "`2026-05-12` → `2026-05-14`" in body
+
+
+def test_build_file_handles_empty_input(md_mod):
+    body = md_mod.build_file(
+        granularity="daily",
+        title="Daily Trending",
+        emoji="🔥",
+        pairs=[],
+    )
+    assert body.startswith("# Daily Trending — accumulated snapshots")
+    assert "**0 snapshots**" in body
+    # No section headers when there's no data
+    assert "## " not in body
