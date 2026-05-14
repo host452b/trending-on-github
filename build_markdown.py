@@ -53,6 +53,59 @@ def format_int(n: int) -> str:
     return f"{n:,}"
 
 
+def build_section(
+    *,
+    json_path: Path,
+    snapshot: dict,
+    emoji: str,
+    title: str,
+) -> str:
+    """Render a single snapshot as a markdown section.
+
+    `json_path` is expressed relative to the markdown file's directory
+    (i.e. `daily/2026-05-14.json`, NOT an absolute path) so the link
+    works on GitHub.
+    """
+    period = snapshot["period"]
+    items = snapshot["items"]
+
+    lines: list[str] = []
+    lines.append(
+        f"## {period['start']} — {emoji} {title} "
+        f"(window `{period['label_compact']}`)"
+    )
+    lines.append("")
+    lines.append(
+        f"Captured at `{snapshot['run_date_utc']}` · "
+        f"{snapshot['count']} repos · "
+        f"[raw JSON]({json_path.as_posix()})"
+    )
+    lines.append("")
+    lines.append(
+        "| # | Repo | Lang | ⭐ total | Forks | Period ⭐ | Description |"
+    )
+    lines.append(
+        "|--:|------|------|-------:|------:|---------:|-------------|"
+    )
+    for item in items:
+        repo_link = (
+            f"[{escape_pipe(item['full_name'])}]"
+            f"({item['url']})"
+        )
+        lang = escape_pipe(item.get("language") or "—")
+        desc = escape_pipe(item.get("description") or "")
+        lines.append(
+            f"| {item['rank']} | {repo_link} | {lang} | "
+            f"{format_int(item['stars_total'])} | "
+            f"{format_int(item['forks_total'])} | "
+            f"**{format_int(item['period_stars'])}** | {desc} |"
+        )
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    return "\n".join(lines)
+
+
 def read_snapshots(data_dir: Path, granularity: str) -> list[tuple[Path, dict]]:
     """Load all `<data_dir>/<granularity>/*.json` files in chronological order.
 

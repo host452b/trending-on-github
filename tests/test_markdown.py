@@ -73,3 +73,91 @@ def test_read_snapshots_skips_unreadable_json(md_mod, tmp_path, capsys):
     assert names == ["good.json"]
     err = capsys.readouterr().err
     assert "broken.json" in err
+
+
+def _make_snapshot(granularity: str, items: list[dict]) -> dict:
+    return {
+        "granularity": granularity,
+        "run_date_utc": "2026-05-14T00:30:00Z",
+        "period": {
+            "start": "2026-05-14",
+            "end": "2026-05-14",
+            "label_iso": "2026-05-14",
+            "label_compact": "2026.05.14",
+        },
+        "source_url": f"https://github.com/trending?since={granularity}",
+        "count": len(items),
+        "items": items,
+    }
+
+
+def _item(rank: int, owner: str, name: str, **overrides) -> dict:
+    base = {
+        "rank": rank,
+        "owner": owner,
+        "name": name,
+        "full_name": f"{owner}/{name}",
+        "url": f"https://github.com/{owner}/{name}",
+        "description": "demo repo",
+        "language": "Python",
+        "stars_total": 1234,
+        "forks_total": 56,
+        "contributors_visible": 3,
+        "period_stars": 78,
+        "period_stars_label": "78 stars 2026.05.14",
+    }
+    base.update(overrides)
+    return base
+
+
+def test_build_section_includes_header_subtitle_and_table(md_mod):
+    snap = _make_snapshot("daily", [_item(1, "alice", "repo-a")])
+    section = md_mod.build_section(
+        json_path=Path("daily/2026-05-14.json"),
+        snapshot=snap,
+        emoji="🔥",
+        title="Daily Trending",
+    )
+    # Header line with date, emoji, title and window
+    assert "## 2026-05-14 — 🔥 Daily Trending" in section
+    assert "`2026.05.14`" in section
+    # Subtitle with run timestamp and a link back to the raw JSON
+    assert "`2026-05-14T00:30:00Z`" in section
+    assert "[raw JSON](daily/2026-05-14.json)" in section
+    # Table header and one row
+    assert "| # | Repo | Lang | ⭐ total | Forks | Period ⭐ | Description |" in section
+    assert "alice/repo-a" in section
+    # Trailing separator
+    assert section.rstrip().endswith("---")
+
+
+def test_build_section_escapes_pipes_in_description(md_mod):
+    snap = _make_snapshot(
+        "daily",
+        [_item(1, "x", "y", description="weird | repo | name")],
+    )
+    section = md_mod.build_section(
+        json_path=Path("daily/2026-05-14.json"),
+        snapshot=snap,
+        emoji="🔥",
+        title="Daily Trending",
+    )
+    # Pipes must be escaped so the markdown table isn't broken
+    assert "weird \\| repo \\| name" in section
+    # And there must be no raw " | " inside the description cell
+    assert "weird | repo" not in section
+
+
+def test_build_section_renders_null_language_and_description(md_mod):
+    snap = _make_snapshot(
+        "daily",
+        [_item(1, "x", "y", language=None, description=None)],
+    )
+    section = md_mod.build_section(
+        json_path=Path("daily/2026-05-14.json"),
+        snapshot=snap,
+        emoji="🔥",
+        title="Daily Trending",
+    )
+    # Empty cells render cleanly (just spaces between pipes)
+    assert "| — |" in section  # language placeholder
