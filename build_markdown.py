@@ -51,3 +51,22 @@ def escape_pipe(text: str | None) -> str:
 def format_int(n: int) -> str:
     """Render integers with comma thousands separators."""
     return f"{n:,}"
+
+
+def read_snapshots(data_dir: Path, granularity: str) -> list[tuple[Path, dict]]:
+    """Load all `<data_dir>/<granularity>/*.json` files in chronological order.
+
+    A file that fails to parse is logged to stderr and skipped — one
+    corrupt JSON should not block rebuilding the markdown for the
+    remaining snapshots.
+    """
+    folder = data_dir / granularity
+    if not folder.exists():
+        return []
+    pairs: list[tuple[Path, dict]] = []
+    for path in sorted(folder.glob("*.json")):
+        try:
+            pairs.append((path, json.loads(path.read_text(encoding="utf-8"))))
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"warn: skipping unreadable {path}: {exc}", file=sys.stderr)
+    return pairs
