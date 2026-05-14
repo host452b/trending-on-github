@@ -39,11 +39,14 @@ jobs:
           fi
       - name: Rebuild dashboard.ipynb
         run: python build_dashboard.py
+      - name: Rebuild cumulative markdown
+        run: python build_markdown.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "data: trending snapshot ${{ github.run_id }}"
           file_pattern: |
             data/**/*.json
             dashboard.ipynb
+            data/*.md
           commit_user_name: host452b
           commit_user_email: 32806348+host452b@users.noreply.github.com
