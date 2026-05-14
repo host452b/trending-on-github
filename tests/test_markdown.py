@@ -217,3 +217,57 @@ def test_build_file_handles_empty_input(md_mod):
     assert "**0 snapshots**" in body
     # No section headers when there's no data
     assert "## " not in body
+
+
+def test_write_file_creates_target(md_mod, tmp_path):
+    target = tmp_path / "daily.md"
+    md_mod.write_file(target, "# hello\n")
+    assert target.read_text(encoding="utf-8") == "# hello\n"
+
+
+def test_write_file_is_atomic_on_failure(md_mod, tmp_path, monkeypatch):
+    target = tmp_path / "daily.md"
+    target.write_text("# original\n", encoding="utf-8")
+
+    def boom(*args, **kwargs):
+        raise RuntimeError("rename failed")
+
+    # Patch the module-local reference so the real os.replace stays
+    # available to the rest of the test infrastructure.
+    monkeypatch.setattr("build_markdown.os.replace", boom)
+    with pytest.raises(RuntimeError, match="rename failed"):
+        md_mod.write_file(target, "# new content\n")
+    # Original is intact and no temp file leaked beside it
+    assert target.read_text(encoding="utf-8") == "# original\n"
+    leftovers = [p for p in target.parent.iterdir() if p != target]
+    assert leftovers == []
+
+
+def test_main_writes_three_files(md_mod, tmp_path, monkeypatch):
+    # Lay out a miniature dataset
+    for granularity in ("daily", "weekly", "monthly"):
+        folder = tmp_path / granularity
+        folder.mkdir()
+        snap = _make_snapshot(granularity, [_item(1, "a", "b")])
+        (folder / f"sample-{granularity}.json").write_text(
+            json.dumps(snap), encoding="utf-8"
+        )
+
+    monkeypatch.setattr(md_mod, "DATA_DIR", tmp_path)
+    code = md_mod.main()
+    assert code == 0
+    for granularity, name in (
+        ("daily", "daily.md"),
+        ("weekly", "weekly.md"),
+        ("monthly", "monthly.md"),
+    ):
+        target = tmp_path / name
+        assert target.exists()
+        body = target.read_text(encoding="utf-8")
+        assert "accumulated snapshots" in body
+        assert "a/b" in body
+        # raw JSON link is relative to data/ — not absolute, not pointing
+        # outside the markdown file's directory
+        assert f"({granularity}/sample-{granularity}.json)" in body
+        assert "/Users/" not in body
+        assert str(tmp_path) not in body

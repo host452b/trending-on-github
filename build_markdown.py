@@ -169,3 +169,53 @@ def read_snapshots(data_dir: Path, granularity: str) -> list[tuple[Path, dict]]:
         except (OSError, json.JSONDecodeError) as exc:
             print(f"warn: skipping unreadable {path}: {exc}", file=sys.stderr)
     return pairs
+
+
+_GRANULARITIES = (
+    ("daily", "Daily Trending", "🔥"),
+    ("weekly", "Weekly Trending", "📅"),
+    ("monthly", "Monthly Trending", "🗓️"),
+)
+
+
+def write_file(target: Path, body: str) -> None:
+    """Atomic write: tempfile + os.replace (same pattern as snapshot.py)."""
+    target.parent.mkdir(parents=True, exist_ok=True)
+    tmp_fd, tmp_path = tempfile.mkstemp(
+        prefix=".build-markdown-",
+        suffix=".md.tmp",
+        dir=str(target.parent),
+    )
+    try:
+        with os.fdopen(tmp_fd, "w", encoding="utf-8") as f:
+            f.write(body)
+        os.replace(tmp_path, target)
+    except Exception:
+        try:
+            os.unlink(tmp_path)
+        except OSError:
+            # Best-effort cleanup; never suppress the original exception.
+            pass
+        raise
+
+
+def main() -> int:
+    for granularity, title, emoji in _GRANULARITIES:
+        pairs = read_snapshots(DATA_DIR, granularity)
+        # Convert absolute snapshot paths to ones relative to DATA_DIR so the
+        # `[raw JSON](...)` links inside the markdown work on GitHub.
+        pairs = [(p.relative_to(DATA_DIR), s) for p, s in pairs]
+        body = build_file(
+            granularity=granularity,
+            title=title,
+            emoji=emoji,
+            pairs=pairs,
+        )
+        target = DATA_DIR / f"{granularity}.md"
+        write_file(target, body)
+        print(f"wrote {target} ({len(pairs)} snapshots)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
