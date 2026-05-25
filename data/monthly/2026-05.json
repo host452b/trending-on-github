@@ -1,11 +1,11 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-05-24T04:46:49Z",
+  "run_date_utc": "2026-05-25T05:00:41Z",
   "period": {
-    "start": "2026-04-25",
-    "end": "2026-05-24",
-    "label_iso": "2026-04-25/2026-05-24",
-    "label_compact": "2026.04.25-2026.05.24"
+    "start": "2026-04-26",
+    "end": "2026-05-25",
+    "label_iso": "2026-04-26/2026-05-25",
+    "label_compact": "2026.04.26-2026.05.25"
   },
   "source_url": "https://github.com/trending?since=monthly",
   "count": 20,
@@ -18,11 +18,11 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "stars_total": 102582,
-      "forks_total": 9078,
+      "stars_total": 103921,
+      "forks_total": 9199,
       "contributors_visible": 0,
-      "period_stars": 85195,
-      "period_stars_label": "85,195 stars 2026.04.25-2026.05.24"
+      "period_stars": 85843,
+      "period_stars_label": "85,843 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "stars_total": 19998,
-      "forks_total": 1115,
+      "stars_total": 22888,
+      "forks_total": 1263,
       "contributors_visible": 0,
-      "period_stars": 17463,
-      "period_stars_label": "17,463 stars 2026.04.25-2026.05.24"
+      "period_stars": 20676,
+      "period_stars_label": "20,676 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 3,
@@ -46,11 +46,11 @@
       "url": "https://github.com/anthropics/financial-services",
       "description": null,
       "language": "Python",
-      "stars_total": 27091,
-      "forks_total": 3797,
+      "stars_total": 27366,
+      "forks_total": 3840,
       "contributors_visible": 0,
-      "period_stars": 19289,
-      "period_stars_label": "19,289 stars 2026.04.25-2026.05.24"
+      "period_stars": 19626,
+      "period_stars_label": "19,626 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 4,
@@ -60,11 +60,11 @@
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "stars_total": 19696,
-      "forks_total": 1557,
+      "stars_total": 20504,
+      "forks_total": 1619,
       "contributors_visible": 0,
-      "period_stars": 17847,
-      "period_stars_label": "17,847 stars 2026.04.25-2026.05.24"
+      "period_stars": 18723,
+      "period_stars_label": "18,723 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 5,
@@ -74,25 +74,25 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "stars_total": 16924,
-      "forks_total": 1391,
+      "stars_total": 17483,
+      "forks_total": 1427,
       "contributors_visible": 0,
-      "period_stars": 14753,
-      "period_stars_label": "14,753 stars 2026.04.25-2026.05.24"
+      "period_stars": 15283,
+      "period_stars_label": "15,283 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 6,
-      "owner": "Alishahryar1",
-      "name": "free-claude-code",
-      "full_name": "Alishahryar1/free-claude-code",
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "owner": "Imbad0202",
+      "name": "academic-research-skills",
+      "full_name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "language": "Python",
-      "stars_total": 28677,
-      "forks_total": 4302,
+      "stars_total": 20805,
+      "forks_total": 1770,
       "contributors_visible": 0,
-      "period_stars": 24512,
-      "period_stars_label": "24,512 stars 2026.04.25-2026.05.24"
+      "period_stars": 16935,
+      "period_stars_label": "16,935 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 7,
@@ -102,67 +102,67 @@
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
       "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
       "language": "Python",
-      "stars_total": 11297,
-      "forks_total": 1077,
+      "stars_total": 11511,
+      "forks_total": 1098,
       "contributors_visible": 0,
-      "period_stars": 10326,
-      "period_stars_label": "10,326 stars 2026.04.25-2026.05.24"
+      "period_stars": 10414,
+      "period_stars_label": "10,414 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 8,
-      "owner": "Imbad0202",
-      "name": "academic-research-skills",
-      "full_name": "Imbad0202/academic-research-skills",
-      "url": "https://github.com/Imbad0202/academic-research-skills",
-      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "language": "Python",
-      "stars_total": 19871,
-      "forks_total": 1705,
-      "contributors_visible": 0,
-      "period_stars": 16073,
-      "period_stars_label": "16,073 stars 2026.04.25-2026.05.24"
-    },
-    {
-      "rank": 9,
       "owner": "multica-ai",
       "name": "andrej-karpathy-skills",
       "full_name": "multica-ai/andrej-karpathy-skills",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": null,
-      "stars_total": 150028,
-      "forks_total": 15391,
+      "stars_total": 152698,
+      "forks_total": 15649,
       "contributors_visible": 0,
-      "period_stars": 70773,
-      "period_stars_label": "70,773 stars 2026.04.25-2026.05.24"
+      "period_stars": 69590,
+      "period_stars_label": "69,590 stars 2026.04.26-2026.05.25"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "owner": "soxoj",
       "name": "maigret",
       "full_name": "soxoj/maigret",
       "url": "https://github.com/soxoj/maigret",
       "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
       "language": "Python",
-      "stars_total": 30085,
-      "forks_total": 2155,
+      "stars_total": 30256,
+      "forks_total": 2162,
       "contributors_visible": 0,
-      "period_stars": 10535,
-      "period_stars_label": "10,535 stars 2026.04.25-2026.05.24"
+      "period_stars": 10671,
+      "period_stars_label": "10,671 stars 2026.04.26-2026.05.25"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "owner": "TauricResearch",
       "name": "TradingAgents",
       "full_name": "TauricResearch/TradingAgents",
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "language": "Python",
-      "stars_total": 78980,
-      "forks_total": 15390,
+      "stars_total": 79296,
+      "forks_total": 15458,
       "contributors_visible": 0,
-      "period_stars": 26704,
-      "period_stars_label": "26,704 stars 2026.04.25-2026.05.24"
+      "period_stars": 26930,
+      "period_stars_label": "26,930 stars 2026.04.26-2026.05.25"
+    },
+    {
+      "rank": 11,
+      "owner": "Alishahryar1",
+      "name": "free-claude-code",
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "language": "Python",
+      "stars_total": 29258,
+      "forks_total": 4395,
+      "contributors_visible": 0,
+      "period_stars": 22082,
+      "period_stars_label": "22,082 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 12,
@@ -172,11 +172,11 @@
       "url": "https://github.com/AIDC-AI/Pixelle-Video",
       "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
       "language": "Python",
-      "stars_total": 19393,
-      "forks_total": 2755,
+      "stars_total": 19597,
+      "forks_total": 2776,
       "contributors_visible": 0,
-      "period_stars": 13218,
-      "period_stars_label": "13,218 stars 2026.04.25-2026.05.24"
+      "period_stars": 13052,
+      "period_stars_label": "13,052 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 13,
@@ -186,25 +186,25 @@
       "url": "https://github.com/decolua/9router",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "language": "JavaScript",
-      "stars_total": 13833,
-      "forks_total": 2074,
+      "stars_total": 14065,
+      "forks_total": 2099,
       "contributors_visible": 0,
-      "period_stars": 10813,
-      "period_stars_label": "10,813 stars 2026.04.25-2026.05.24"
+      "period_stars": 11024,
+      "period_stars_label": "11,024 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 14,
-      "owner": "refactoringhq",
-      "name": "tolaria",
-      "full_name": "refactoringhq/tolaria",
-      "url": "https://github.com/refactoringhq/tolaria",
-      "description": "Desktop app to manage markdown knowledge bases",
-      "language": "TypeScript",
-      "stars_total": 11387,
-      "forks_total": 809,
+      "owner": "HKUDS",
+      "name": "ViMax",
+      "full_name": "HKUDS/ViMax",
+      "url": "https://github.com/HKUDS/ViMax",
+      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "language": "Python",
+      "stars_total": 7392,
+      "forks_total": 1146,
       "contributors_visible": 0,
-      "period_stars": 10527,
-      "period_stars_label": "10,527 stars 2026.04.25-2026.05.24"
+      "period_stars": 4531,
+      "period_stars_label": "4,531 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 15,
@@ -214,67 +214,67 @@
       "url": "https://github.com/ruvnet/ruflo",
       "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "language": "TypeScript",
-      "stars_total": 54525,
-      "forks_total": 6193,
+      "stars_total": 54846,
+      "forks_total": 6237,
       "contributors_visible": 0,
-      "period_stars": 21850,
-      "period_stars_label": "21,850 stars 2026.04.25-2026.05.24"
+      "period_stars": 22025,
+      "period_stars_label": "22,025 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 16,
+      "owner": "yikart",
+      "name": "AiToEarn",
+      "full_name": "yikart/AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "stars_total": 16360,
+      "forks_total": 2638,
+      "contributors_visible": 0,
+      "period_stars": 7332,
+      "period_stars_label": "7,332 stars 2026.04.26-2026.05.25"
+    },
+    {
+      "rank": 17,
       "owner": "bytedance",
       "name": "UI-TARS-desktop",
       "full_name": "bytedance/UI-TARS-desktop",
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
       "language": "TypeScript",
-      "stars_total": 35064,
-      "forks_total": 3523,
+      "stars_total": 35167,
+      "forks_total": 3533,
       "contributors_visible": 0,
-      "period_stars": 5666,
-      "period_stars_label": "5,666 stars 2026.04.25-2026.05.24"
-    },
-    {
-      "rank": 17,
-      "owner": "Z4nzu",
-      "name": "hackingtool",
-      "full_name": "Z4nzu/hackingtool",
-      "url": "https://github.com/Z4nzu/hackingtool",
-      "description": "ALL IN ONE Hacking Tool For Hackers",
-      "language": "Python",
-      "stars_total": 76347,
-      "forks_total": 8595,
-      "contributors_visible": 0,
-      "period_stars": 16237,
-      "period_stars_label": "16,237 stars 2026.04.25-2026.05.24"
+      "period_stars": 5740,
+      "period_stars_label": "5,740 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 18,
+      "owner": "CJackHwang",
+      "name": "ds2api",
+      "full_name": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "description": "DeepSeek-Compatible Middleware Interface: A technical exploration project in Go, focusing on high-concurrency protocol adaptation. It serves as a reference implementation for converting diverse web protocols into standardized formats.",
+      "language": "Go",
+      "stars_total": 4585,
+      "forks_total": 1465,
+      "contributors_visible": 0,
+      "period_stars": 3378,
+      "period_stars_label": "3,378 stars 2026.04.26-2026.05.25"
+    },
+    {
+      "rank": 19,
       "owner": "addyosmani",
       "name": "agent-skills",
       "full_name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "Shell",
-      "stars_total": 45195,
-      "forks_total": 5004,
+      "stars_total": 45451,
+      "forks_total": 5031,
       "contributors_visible": 0,
-      "period_stars": 23686,
-      "period_stars_label": "23,686 stars 2026.04.25-2026.05.24"
-    },
-    {
-      "rank": 19,
-      "owner": "HKUDS",
-      "name": "ViMax",
-      "full_name": "HKUDS/ViMax",
-      "url": "https://github.com/HKUDS/ViMax",
-      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
-      "language": "Python",
-      "stars_total": 7071,
-      "forks_total": 1112,
-      "contributors_visible": 0,
-      "period_stars": 4152,
-      "period_stars_label": "4,152 stars 2026.04.25-2026.05.24"
+      "period_stars": 22991,
+      "period_stars_label": "22,991 stars 2026.04.26-2026.05.25"
     },
     {
       "rank": 20,
@@ -284,11 +284,11 @@
       "url": "https://github.com/mattpocock/sandcastle",
       "description": "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()",
       "language": "TypeScript",
-      "stars_total": 4888,
-      "forks_total": 518,
+      "stars_total": 4998,
+      "forks_total": 525,
       "contributors_visible": 0,
-      "period_stars": 3929,
-      "period_stars_label": "3,929 stars 2026.04.25-2026.05.24"
+      "period_stars": 4042,
+      "period_stars_label": "4,042 stars 2026.04.26-2026.05.25"
     }
   ]
 }
