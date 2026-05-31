@@ -1,11 +1,11 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-05-30T04:32:32Z",
+  "run_date_utc": "2026-05-31T04:58:24Z",
   "period": {
-    "start": "2026-05-01",
-    "end": "2026-05-30",
-    "label_iso": "2026-05-01/2026-05-30",
-    "label_compact": "2026.05.01-2026.05.30"
+    "start": "2026-05-02",
+    "end": "2026-05-31",
+    "label_iso": "2026-05-02/2026-05-31",
+    "label_compact": "2026.05.02-2026.05.31"
   },
   "source_url": "https://github.com/trending?since=monthly",
   "count": 18,
@@ -18,11 +18,11 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "stars_total": 33433,
-      "forks_total": 2027,
+      "stars_total": 34529,
+      "forks_total": 2110,
       "contributors_visible": 0,
-      "period_stars": 32217,
-      "period_stars_label": "32,217 stars 2026.05.01-2026.05.30"
+      "period_stars": 33455,
+      "period_stars_label": "33,455 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/anthropics/financial-services",
       "description": null,
       "language": "Python",
-      "stars_total": 28727,
-      "forks_total": 4031,
+      "stars_total": 28903,
+      "forks_total": 4049,
       "contributors_visible": 0,
-      "period_stars": 20958,
-      "period_stars_label": "20,958 stars 2026.05.01-2026.05.30"
+      "period_stars": 21134,
+      "period_stars_label": "21,134 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 3,
@@ -46,11 +46,11 @@
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "stars_total": 22437,
-      "forks_total": 1788,
+      "stars_total": 22682,
+      "forks_total": 1805,
       "contributors_visible": 0,
-      "period_stars": 20907,
-      "period_stars_label": "20,907 stars 2026.05.01-2026.05.30"
+      "period_stars": 21160,
+      "period_stars_label": "21,160 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 4,
@@ -60,11 +60,11 @@
       "url": "https://github.com/Lum1104/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
-      "stars_total": 44693,
-      "forks_total": 3579,
+      "stars_total": 46190,
+      "forks_total": 3734,
       "contributors_visible": 0,
-      "period_stars": 34687,
-      "period_stars_label": "34,687 stars 2026.05.01-2026.05.30"
+      "period_stars": 36047,
+      "period_stars_label": "36,047 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 5,
@@ -74,39 +74,39 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "stars_total": 19679,
-      "forks_total": 1614,
+      "stars_total": 19978,
+      "forks_total": 1648,
       "contributors_visible": 0,
-      "period_stars": 17529,
-      "period_stars_label": "17,529 stars 2026.05.01-2026.05.30"
+      "period_stars": 17789,
+      "period_stars_label": "17,789 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 6,
-      "owner": "mattpocock",
-      "name": "skills",
-      "full_name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "stars_total": 111639,
-      "forks_total": 9780,
-      "contributors_visible": 0,
-      "period_stars": 70213,
-      "period_stars_label": "70,213 stars 2026.05.01-2026.05.30"
-    },
-    {
-      "rank": 7,
       "owner": "Imbad0202",
       "name": "academic-research-skills",
       "full_name": "Imbad0202/academic-research-skills",
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "language": "Python",
-      "stars_total": 23963,
-      "forks_total": 1992,
+      "stars_total": 24628,
+      "forks_total": 2037,
       "contributors_visible": 0,
-      "period_stars": 20002,
-      "period_stars_label": "20,002 stars 2026.05.01-2026.05.30"
+      "period_stars": 20575,
+      "period_stars_label": "20,575 stars 2026.05.02-2026.05.31"
+    },
+    {
+      "rank": 7,
+      "owner": "mattpocock",
+      "name": "skills",
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_total": 112442,
+      "forks_total": 9871,
+      "contributors_visible": 0,
+      "period_stars": 71266,
+      "period_stars_label": "71,266 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 8,
@@ -116,11 +116,11 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars_total": 24714,
-      "forks_total": 4013,
+      "stars_total": 25262,
+      "forks_total": 4093,
       "contributors_visible": 0,
-      "period_stars": 18870,
-      "period_stars_label": "18,870 stars 2026.05.01-2026.05.30"
+      "period_stars": 19463,
+      "period_stars_label": "19,463 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 9,
@@ -130,39 +130,39 @@
       "url": "https://github.com/decolua/9router",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "language": "JavaScript",
-      "stars_total": 15096,
-      "forks_total": 2261,
+      "stars_total": 15279,
+      "forks_total": 2288,
       "contributors_visible": 0,
-      "period_stars": 11758,
-      "period_stars_label": "11,758 stars 2026.05.01-2026.05.30"
+      "period_stars": 11936,
+      "period_stars_label": "11,936 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 10,
-      "owner": "ruvnet",
-      "name": "ruflo",
-      "full_name": "ruvnet/ruflo",
-      "url": "https://github.com/ruvnet/ruflo",
-      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-      "language": "TypeScript",
-      "stars_total": 56440,
-      "forks_total": 6420,
-      "contributors_visible": 0,
-      "period_stars": 22776,
-      "period_stars_label": "22,776 stars 2026.05.01-2026.05.30"
-    },
-    {
-      "rank": 11,
       "owner": "yikart",
       "name": "AiToEarn",
       "full_name": "yikart/AiToEarn",
       "url": "https://github.com/yikart/AiToEarn",
       "description": "Let's use AI to Earn!",
       "language": "TypeScript",
-      "stars_total": 17011,
-      "forks_total": 2722,
+      "stars_total": 17133,
+      "forks_total": 2734,
       "contributors_visible": 0,
-      "period_stars": 8037,
-      "period_stars_label": "8,037 stars 2026.05.01-2026.05.30"
+      "period_stars": 8137,
+      "period_stars_label": "8,137 stars 2026.05.02-2026.05.31"
+    },
+    {
+      "rank": 11,
+      "owner": "ruvnet",
+      "name": "ruflo",
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars_total": 56713,
+      "forks_total": 6458,
+      "contributors_visible": 0,
+      "period_stars": 23037,
+      "period_stars_label": "23,037 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 12,
@@ -172,11 +172,11 @@
       "url": "https://github.com/bytedance/UI-TARS-desktop",
       "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
       "language": "TypeScript",
-      "stars_total": 35707,
-      "forks_total": 3595,
+      "stars_total": 35769,
+      "forks_total": 3600,
       "contributors_visible": 0,
-      "period_stars": 6236,
-      "period_stars_label": "6,236 stars 2026.05.01-2026.05.30"
+      "period_stars": 6319,
+      "period_stars_label": "6,319 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 13,
@@ -186,81 +186,81 @@
       "url": "https://github.com/AIDC-AI/Pixelle-Video",
       "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
       "language": "Python",
-      "stars_total": 20486,
-      "forks_total": 2873,
+      "stars_total": 20600,
+      "forks_total": 2891,
       "contributors_visible": 0,
-      "period_stars": 12990,
-      "period_stars_label": "12,990 stars 2026.05.01-2026.05.30"
+      "period_stars": 13102,
+      "period_stars_label": "13,102 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 14,
-      "owner": "soxoj",
-      "name": "maigret",
-      "full_name": "soxoj/maigret",
-      "url": "https://github.com/soxoj/maigret",
-      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
-      "language": "Python",
-      "stars_total": 30970,
-      "forks_total": 2219,
-      "contributors_visible": 0,
-      "period_stars": 11154,
-      "period_stars_label": "11,154 stars 2026.05.01-2026.05.30"
-    },
-    {
-      "rank": 15,
-      "owner": "TauricResearch",
-      "name": "TradingAgents",
-      "full_name": "TauricResearch/TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "language": "Python",
-      "stars_total": 80724,
-      "forks_total": 15703,
-      "contributors_visible": 0,
-      "period_stars": 26500,
-      "period_stars_label": "26,500 stars 2026.05.01-2026.05.30"
-    },
-    {
-      "rank": 16,
       "owner": "multica-ai",
       "name": "andrej-karpathy-skills",
       "full_name": "multica-ai/andrej-karpathy-skills",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": null,
-      "stars_total": 161807,
-      "forks_total": 16571,
+      "stars_total": 162701,
+      "forks_total": 16664,
       "contributors_visible": 0,
-      "period_stars": 64052,
-      "period_stars_label": "64,052 stars 2026.05.01-2026.05.30"
+      "period_stars": 65076,
+      "period_stars_label": "65,076 stars 2026.05.02-2026.05.31"
+    },
+    {
+      "rank": 15,
+      "owner": "soxoj",
+      "name": "maigret",
+      "full_name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars_total": 31104,
+      "forks_total": 2225,
+      "contributors_visible": 0,
+      "period_stars": 11299,
+      "period_stars_label": "11,299 stars 2026.05.02-2026.05.31"
+    },
+    {
+      "rank": 16,
+      "owner": "TauricResearch",
+      "name": "TradingAgents",
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars_total": 81053,
+      "forks_total": 15754,
+      "contributors_visible": 0,
+      "period_stars": 26772,
+      "period_stars_label": "26,772 stars 2026.05.02-2026.05.31"
     },
     {
       "rank": 17,
-      "owner": "1jehuang",
-      "name": "jcode",
-      "full_name": "1jehuang/jcode",
-      "url": "https://github.com/1jehuang/jcode",
-      "description": "Coding Agent Harness",
-      "language": "Rust",
-      "stars_total": 6725,
-      "forks_total": 753,
-      "contributors_visible": 0,
-      "period_stars": 5723,
-      "period_stars_label": "5,723 stars 2026.05.01-2026.05.30"
-    },
-    {
-      "rank": 18,
       "owner": "LearningCircuit",
       "name": "local-deep-research",
       "full_name": "LearningCircuit/local-deep-research",
       "url": "https://github.com/LearningCircuit/local-deep-research",
       "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
       "language": "Python",
-      "stars_total": 8164,
-      "forks_total": 705,
+      "stars_total": 8221,
+      "forks_total": 706,
       "contributors_visible": 0,
-      "period_stars": 3788,
-      "period_stars_label": "3,788 stars 2026.05.01-2026.05.30"
+      "period_stars": 3835,
+      "period_stars_label": "3,835 stars 2026.05.02-2026.05.31"
+    },
+    {
+      "rank": 18,
+      "owner": "1jehuang",
+      "name": "jcode",
+      "full_name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars_total": 6766,
+      "forks_total": 754,
+      "contributors_visible": 0,
+      "period_stars": 5765,
+      "period_stars_label": "5,765 stars 2026.05.02-2026.05.31"
     }
   ]
 }
