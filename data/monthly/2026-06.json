@@ -1,14 +1,14 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-06-08T05:11:06Z",
+  "run_date_utc": "2026-06-09T04:43:50Z",
   "period": {
-    "start": "2026-05-10",
-    "end": "2026-06-08",
-    "label_iso": "2026-05-10/2026-06-08",
-    "label_compact": "2026.05.10-2026.06.08"
+    "start": "2026-05-11",
+    "end": "2026-06-09",
+    "label_iso": "2026-05-11/2026-06-09",
+    "label_compact": "2026.05.11-2026.06.09"
   },
   "source_url": "https://github.com/trending?since=monthly",
-  "count": 19,
+  "count": 18,
   "items": [
     {
       "rank": 1,
@@ -18,11 +18,11 @@
       "url": "https://github.com/colbymchenry/codegraph",
       "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "language": "TypeScript",
-      "stars_total": 44084,
-      "forks_total": 2714,
+      "stars_total": 45090,
+      "forks_total": 2770,
       "contributors_visible": 0,
-      "period_stars": 42778,
-      "period_stars_label": "42,778 stars 2026.05.10-2026.06.08"
+      "period_stars": 43749,
+      "period_stars_label": "43,749 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 2,
@@ -32,39 +32,39 @@
       "url": "https://github.com/chopratejas/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
       "language": "Python",
-      "stars_total": 17213,
-      "forks_total": 1101,
+      "stars_total": 19166,
+      "forks_total": 1220,
       "contributors_visible": 0,
-      "period_stars": 14922,
-      "period_stars_label": "14,922 stars 2026.05.10-2026.06.08"
+      "period_stars": 16237,
+      "period_stars_label": "16,237 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 3,
+      "owner": "Egonex-AI",
+      "name": "Understand-Anything",
+      "full_name": "Egonex-AI/Understand-Anything",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars_total": 55386,
+      "forks_total": 4584,
+      "contributors_visible": 0,
+      "period_stars": 41974,
+      "period_stars_label": "41,974 stars 2026.05.11-2026.06.09"
+    },
+    {
+      "rank": 4,
       "owner": "CloakHQ",
       "name": "CloakBrowser",
       "full_name": "CloakHQ/CloakBrowser",
       "url": "https://github.com/CloakHQ/CloakBrowser",
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "language": "Python",
-      "stars_total": 24735,
-      "forks_total": 1974,
+      "stars_total": 24989,
+      "forks_total": 1992,
       "contributors_visible": 0,
-      "period_stars": 22732,
-      "period_stars_label": "22,732 stars 2026.05.10-2026.06.08"
-    },
-    {
-      "rank": 4,
-      "owner": "Lum1104",
-      "name": "Understand-Anything",
-      "full_name": "Lum1104/Understand-Anything",
-      "url": "https://github.com/Lum1104/Understand-Anything",
-      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "language": "TypeScript",
-      "stars_total": 54595,
-      "forks_total": 4505,
-      "contributors_visible": 0,
-      "period_stars": 41326,
-      "period_stars_label": "41,326 stars 2026.05.10-2026.06.08"
+      "period_stars": 22447,
+      "period_stars_label": "22,447 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 5,
@@ -74,11 +74,11 @@
       "url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
       "language": "TypeScript",
-      "stars_total": 21779,
-      "forks_total": 1793,
+      "stars_total": 21971,
+      "forks_total": 1805,
       "contributors_visible": 0,
-      "period_stars": 19547,
-      "period_stars_label": "19,547 stars 2026.05.10-2026.06.08"
+      "period_stars": 19359,
+      "period_stars_label": "19,359 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 6,
@@ -88,11 +88,11 @@
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "stars_total": 81400,
-      "forks_total": 11590,
+      "stars_total": 82318,
+      "forks_total": 11729,
       "contributors_visible": 0,
-      "period_stars": 24500,
-      "period_stars_label": "24,500 stars 2026.05.10-2026.06.08"
+      "period_stars": 25436,
+      "period_stars_label": "25,436 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 7,
@@ -102,11 +102,11 @@
       "url": "https://github.com/fathah/hermes-desktop",
       "description": "Desktop Companion for Hermes Agent",
       "language": "TypeScript",
-      "stars_total": 11037,
-      "forks_total": 1282,
+      "stars_total": 11297,
+      "forks_total": 1296,
       "contributors_visible": 0,
-      "period_stars": 9784,
-      "period_stars_label": "9,784 stars 2026.05.10-2026.06.08"
+      "period_stars": 9936,
+      "period_stars_label": "9,936 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 8,
@@ -116,11 +116,11 @@
       "url": "https://github.com/Imbad0202/academic-research-skills",
       "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "language": "Python",
-      "stars_total": 28642,
-      "forks_total": 2381,
+      "stars_total": 29103,
+      "forks_total": 2411,
       "contributors_visible": 0,
-      "period_stars": 23725,
-      "period_stars_label": "23,725 stars 2026.05.10-2026.06.08"
+      "period_stars": 24020,
+      "period_stars_label": "24,020 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 9,
@@ -130,11 +130,11 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars_total": 29970,
-      "forks_total": 4895,
+      "stars_total": 30420,
+      "forks_total": 4960,
       "contributors_visible": 0,
-      "period_stars": 23390,
-      "period_stars_label": "23,390 stars 2026.05.10-2026.06.08"
+      "period_stars": 23852,
+      "period_stars_label": "23,852 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 10,
@@ -144,53 +144,53 @@
       "url": "https://github.com/ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "stars_total": 71742,
-      "forks_total": 9562,
+      "stars_total": 72102,
+      "forks_total": 9625,
       "contributors_visible": 0,
-      "period_stars": 20236,
-      "period_stars_label": "20,236 stars 2026.05.10-2026.06.08"
+      "period_stars": 20463,
+      "period_stars_label": "20,463 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 11,
-      "owner": "yikart",
-      "name": "AiToEarn",
-      "full_name": "yikart/AiToEarn",
-      "url": "https://github.com/yikart/AiToEarn",
-      "description": "Let's use AI to Earn!",
-      "language": "TypeScript",
-      "stars_total": 18968,
-      "forks_total": 2928,
-      "contributors_visible": 0,
-      "period_stars": 9466,
-      "period_stars_label": "9,466 stars 2026.05.10-2026.06.08"
-    },
-    {
-      "rank": 12,
       "owner": "mattpocock",
       "name": "skills",
       "full_name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "language": "Shell",
-      "stars_total": 120665,
-      "forks_total": 10574,
+      "stars_total": 122013,
+      "forks_total": 10681,
       "contributors_visible": 0,
-      "period_stars": 56562,
-      "period_stars_label": "56,562 stars 2026.05.10-2026.06.08"
+      "period_stars": 55905,
+      "period_stars_label": "55,905 stars 2026.05.11-2026.06.09"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "owner": "can1357",
       "name": "oh-my-pi",
       "full_name": "can1357/oh-my-pi",
       "url": "https://github.com/can1357/oh-my-pi",
       "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "language": "TypeScript",
-      "stars_total": 11129,
-      "forks_total": 940,
+      "stars_total": 11325,
+      "forks_total": 958,
       "contributors_visible": 0,
-      "period_stars": 7042,
-      "period_stars_label": "7,042 stars 2026.05.10-2026.06.08"
+      "period_stars": 7167,
+      "period_stars_label": "7,167 stars 2026.05.11-2026.06.09"
+    },
+    {
+      "rank": 13,
+      "owner": "yikart",
+      "name": "AiToEarn",
+      "full_name": "yikart/AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "stars_total": 19530,
+      "forks_total": 2991,
+      "contributors_visible": 0,
+      "period_stars": 10222,
+      "period_stars_label": "10,222 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 14,
@@ -200,11 +200,11 @@
       "url": "https://github.com/HKUDS/ViMax",
       "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
       "language": "Python",
-      "stars_total": 9042,
-      "forks_total": 1374,
+      "stars_total": 9225,
+      "forks_total": 1395,
       "contributors_visible": 0,
-      "period_stars": 5983,
-      "period_stars_label": "5,983 stars 2026.05.10-2026.06.08"
+      "period_stars": 5702,
+      "period_stars_label": "5,702 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 15,
@@ -214,67 +214,53 @@
       "url": "https://github.com/anthropics/financial-services",
       "description": null,
       "language": "Python",
-      "stars_total": 30424,
-      "forks_total": 4297,
+      "stars_total": 30576,
+      "forks_total": 4317,
       "contributors_visible": 0,
-      "period_stars": 20299,
-      "period_stars_label": "20,299 stars 2026.05.10-2026.06.08"
+      "period_stars": 16850,
+      "period_stars_label": "16,850 stars 2026.05.11-2026.06.09"
     },
     {
       "rank": 16,
-      "owner": "millionco",
-      "name": "react-doctor",
-      "full_name": "millionco/react-doctor",
-      "url": "https://github.com/millionco/react-doctor",
-      "description": "Your agent writes bad React. This catches it",
-      "language": "TypeScript",
-      "stars_total": 12353,
-      "forks_total": 393,
-      "contributors_visible": 0,
-      "period_stars": 5994,
-      "period_stars_label": "5,994 stars 2026.05.10-2026.06.08"
-    },
-    {
-      "rank": 17,
-      "owner": "decolua",
-      "name": "9router",
-      "full_name": "decolua/9router",
-      "url": "https://github.com/decolua/9router",
-      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-      "language": "JavaScript",
-      "stars_total": 16829,
-      "forks_total": 2546,
-      "contributors_visible": 0,
-      "period_stars": 12666,
-      "period_stars_label": "12,666 stars 2026.05.10-2026.06.08"
-    },
-    {
-      "rank": 18,
       "owner": "microsoft",
       "name": "markitdown",
       "full_name": "microsoft/markitdown",
       "url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
       "language": "Python",
-      "stars_total": 147586,
-      "forks_total": 10116,
+      "stars_total": 148607,
+      "forks_total": 10205,
       "contributors_visible": 0,
-      "period_stars": 26145,
-      "period_stars_label": "26,145 stars 2026.05.10-2026.06.08"
+      "period_stars": 26881,
+      "period_stars_label": "26,881 stars 2026.05.11-2026.06.09"
     },
     {
-      "rank": 19,
-      "owner": "nesquena",
-      "name": "hermes-webui",
-      "full_name": "nesquena/hermes-webui",
-      "url": "https://github.com/nesquena/hermes-webui",
-      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
-      "language": "Python",
-      "stars_total": 13888,
-      "forks_total": 1711,
+      "rank": 17,
+      "owner": "millionco",
+      "name": "react-doctor",
+      "full_name": "millionco/react-doctor",
+      "url": "https://github.com/millionco/react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "language": "TypeScript",
+      "stars_total": 12470,
+      "forks_total": 396,
       "contributors_visible": 0,
-      "period_stars": 7927,
-      "period_stars_label": "7,927 stars 2026.05.10-2026.06.08"
+      "period_stars": 6102,
+      "period_stars_label": "6,102 stars 2026.05.11-2026.06.09"
+    },
+    {
+      "rank": 18,
+      "owner": "oven-sh",
+      "name": "bun",
+      "full_name": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars_total": 92956,
+      "forks_total": 4693,
+      "contributors_visible": 0,
+      "period_stars": 3777,
+      "period_stars_label": "3,777 stars 2026.05.11-2026.06.09"
     }
   ]
 }
