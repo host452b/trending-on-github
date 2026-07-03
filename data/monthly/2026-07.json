@@ -1,11 +1,11 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-07-02T04:38:18Z",
+  "run_date_utc": "2026-07-03T04:24:07Z",
   "period": {
-    "start": "2026-06-03",
-    "end": "2026-07-02",
-    "label_iso": "2026-06-03/2026-07-02",
-    "label_compact": "2026.06.03-2026.07.02"
+    "start": "2026-06-04",
+    "end": "2026-07-03",
+    "label_iso": "2026-06-04/2026-07-03",
+    "label_compact": "2026.06.04-2026.07.03"
   },
   "source_url": "https://github.com/trending?since=monthly",
   "count": 20,
@@ -18,11 +18,11 @@
       "url": "https://github.com/apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
       "language": "Swift",
-      "stars_total": 45703,
-      "forks_total": 1358,
+      "stars_total": 45919,
+      "forks_total": 1368,
       "contributors_visible": 0,
-      "period_stars": 19052,
-      "period_stars_label": "19,052 stars 2026.06.03-2026.07.02"
+      "period_stars": 19269,
+      "period_stars_label": "19,269 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "stars_total": 23969,
-      "forks_total": 1765,
+      "stars_total": 24835,
+      "forks_total": 1839,
       "contributors_visible": 0,
-      "period_stars": 20690,
-      "period_stars_label": "20,690 stars 2026.06.03-2026.07.02"
+      "period_stars": 21580,
+      "period_stars_label": "21,580 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 3,
@@ -46,11 +46,11 @@
       "url": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "stars_total": 31057,
-      "forks_total": 3524,
+      "stars_total": 31863,
+      "forks_total": 3612,
       "contributors_visible": 0,
-      "period_stars": 26509,
-      "period_stars_label": "26,509 stars 2026.06.03-2026.07.02"
+      "period_stars": 27370,
+      "period_stars_label": "27,370 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 4,
@@ -60,11 +60,11 @@
       "url": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "stars_total": 48500,
-      "forks_total": 3862,
+      "stars_total": 49268,
+      "forks_total": 3927,
       "contributors_visible": 0,
-      "period_stars": 27497,
-      "period_stars_label": "27,497 stars 2026.06.03-2026.07.02"
+      "period_stars": 28309,
+      "period_stars_label": "28,309 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 5,
@@ -74,11 +74,11 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars_total": 48300,
-      "forks_total": 3996,
+      "stars_total": 48535,
+      "forks_total": 4016,
       "contributors_visible": 0,
-      "period_stars": 21484,
-      "period_stars_label": "21,484 stars 2026.06.03-2026.07.02"
+      "period_stars": 21774,
+      "period_stars_label": "21,774 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 6,
@@ -88,11 +88,11 @@
       "url": "https://github.com/iptv-org/iptv",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "language": "TypeScript",
-      "stars_total": 129843,
-      "forks_total": 7198,
+      "stars_total": 130064,
+      "forks_total": 7213,
       "contributors_visible": 0,
-      "period_stars": 13422,
-      "period_stars_label": "13,422 stars 2026.06.03-2026.07.02"
+      "period_stars": 13585,
+      "period_stars_label": "13,585 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 7,
@@ -102,11 +102,11 @@
       "url": "https://github.com/phuryn/pm-skills",
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "language": null,
-      "stars_total": 22077,
-      "forks_total": 2222,
+      "stars_total": 22243,
+      "forks_total": 2241,
       "contributors_visible": 0,
-      "period_stars": 10309,
-      "period_stars_label": "10,309 stars 2026.06.03-2026.07.02"
+      "period_stars": 10418,
+      "period_stars_label": "10,418 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 8,
@@ -116,67 +116,67 @@
       "url": "https://github.com/lfnovo/open-notebook",
       "description": "An Open Source implementation of Notebook LM with more flexibility and features",
       "language": "TypeScript",
-      "stars_total": 34373,
-      "forks_total": 3833,
+      "stars_total": 34546,
+      "forks_total": 3848,
       "contributors_visible": 0,
-      "period_stars": 10482,
-      "period_stars_label": "10,482 stars 2026.06.03-2026.07.02"
+      "period_stars": 10623,
+      "period_stars_label": "10,623 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 9,
+      "owner": "NVIDIA",
+      "name": "cosmos",
+      "full_name": "NVIDIA/cosmos",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "language": "Jupyter Notebook",
+      "stars_total": 10821,
+      "forks_total": 736,
+      "contributors_visible": 0,
+      "period_stars": 2315,
+      "period_stars_label": "2,315 stars 2026.06.04-2026.07.03"
+    },
+    {
+      "rank": 10,
       "owner": "asgeirtj",
       "name": "system_prompts_leaks",
       "full_name": "asgeirtj/system_prompts_leaks",
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "stars_total": 47707,
-      "forks_total": 7784,
+      "stars_total": 47897,
+      "forks_total": 7798,
       "contributors_visible": 0,
-      "period_stars": 6665,
-      "period_stars_label": "6,665 stars 2026.06.03-2026.07.02"
+      "period_stars": 6834,
+      "period_stars_label": "6,834 stars 2026.06.04-2026.07.03"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "owner": "openai",
       "name": "plugins",
       "full_name": "openai/plugins",
       "url": "https://github.com/openai/plugins",
       "description": "OpenAI Plugins",
       "language": "JavaScript",
-      "stars_total": 3895,
-      "forks_total": 456,
+      "stars_total": 3940,
+      "forks_total": 462,
       "contributors_visible": 0,
-      "period_stars": 2564,
-      "period_stars_label": "2,564 stars 2026.06.03-2026.07.02"
-    },
-    {
-      "rank": 11,
-      "owner": "Leonxlnx",
-      "name": "taste-skill",
-      "full_name": "Leonxlnx/taste-skill",
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "language": "JavaScript",
-      "stars_total": 54529,
-      "forks_total": 3746,
-      "contributors_visible": 0,
-      "period_stars": 23990,
-      "period_stars_label": "23,990 stars 2026.06.03-2026.07.02"
+      "period_stars": 2606,
+      "period_stars_label": "2,606 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 12,
-      "owner": "harry0703",
-      "name": "MoneyPrinterTurbo",
-      "full_name": "harry0703/MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-      "language": "Python",
-      "stars_total": 95021,
-      "forks_total": 13804,
+      "owner": "alibaba",
+      "name": "zvec",
+      "full_name": "alibaba/zvec",
+      "url": "https://github.com/alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "stars_total": 12726,
+      "forks_total": 756,
       "contributors_visible": 0,
-      "period_stars": 19037,
-      "period_stars_label": "19,037 stars 2026.06.03-2026.07.02"
+      "period_stars": 3005,
+      "period_stars_label": "3,005 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 13,
@@ -186,11 +186,11 @@
       "url": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "stars_total": 9721,
-      "forks_total": 568,
+      "stars_total": 10252,
+      "forks_total": 602,
       "contributors_visible": 0,
-      "period_stars": 5827,
-      "period_stars_label": "5,827 stars 2026.06.03-2026.07.02"
+      "period_stars": 6210,
+      "period_stars_label": "6,210 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 14,
@@ -200,95 +200,95 @@
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "language": "TypeScript",
-      "stars_total": 10412,
-      "forks_total": 697,
+      "stars_total": 11152,
+      "forks_total": 736,
       "contributors_visible": 0,
-      "period_stars": 6221,
-      "period_stars_label": "6,221 stars 2026.06.03-2026.07.02"
+      "period_stars": 6875,
+      "period_stars_label": "6,875 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 15,
+      "owner": "Leonxlnx",
+      "name": "taste-skill",
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "JavaScript",
+      "stars_total": 55116,
+      "forks_total": 3779,
+      "contributors_visible": 0,
+      "period_stars": 23665,
+      "period_stars_label": "23,665 stars 2026.06.04-2026.07.03"
+    },
+    {
+      "rank": 16,
       "owner": "t8y2",
       "name": "dbx",
       "full_name": "t8y2/dbx",
       "url": "https://github.com/t8y2/dbx",
       "description": "15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
       "language": "Rust",
-      "stars_total": 8116,
-      "forks_total": 695,
+      "stars_total": 8308,
+      "forks_total": 715,
       "contributors_visible": 0,
-      "period_stars": 5289,
-      "period_stars_label": "5,289 stars 2026.06.03-2026.07.02"
-    },
-    {
-      "rank": 16,
-      "owner": "OpenCut-app",
-      "name": "OpenCut",
-      "full_name": "OpenCut-app/OpenCut",
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "stars_total": 61168,
-      "forks_total": 6595,
-      "contributors_visible": 0,
-      "period_stars": 8963,
-      "period_stars_label": "8,963 stars 2026.06.03-2026.07.02"
+      "period_stars": 5093,
+      "period_stars_label": "5,093 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 17,
-      "owner": "mukul975",
-      "name": "Anthropic-Cybersecurity-Skills",
-      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "owner": "harry0703",
+      "name": "MoneyPrinterTurbo",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
       "language": "Python",
-      "stars_total": 23830,
-      "forks_total": 2706,
+      "stars_total": 95312,
+      "forks_total": 13860,
       "contributors_visible": 0,
-      "period_stars": 10648,
-      "period_stars_label": "10,648 stars 2026.06.03-2026.07.02"
+      "period_stars": 18098,
+      "period_stars_label": "18,098 stars 2026.06.04-2026.07.03"
     },
     {
       "rank": 18,
-      "owner": "roboflow",
-      "name": "supervision",
-      "full_name": "roboflow/supervision",
-      "url": "https://github.com/roboflow/supervision",
-      "description": "We write your reusable computer vision tools. 💜",
-      "language": "Python",
-      "stars_total": 46181,
-      "forks_total": 4096,
-      "contributors_visible": 0,
-      "period_stars": 6459,
-      "period_stars_label": "6,459 stars 2026.06.03-2026.07.02"
-    },
-    {
-      "rank": 19,
-      "owner": "tashfeenahmed",
-      "name": "freellmapi",
-      "full_name": "tashfeenahmed/freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "stars_total": 14632,
-      "forks_total": 2142,
-      "contributors_visible": 0,
-      "period_stars": 7637,
-      "period_stars_label": "7,637 stars 2026.06.03-2026.07.02"
-    },
-    {
-      "rank": 20,
       "owner": "n0-computer",
       "name": "iroh",
       "full_name": "n0-computer/iroh",
       "url": "https://github.com/n0-computer/iroh",
       "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
       "language": "Rust",
-      "stars_total": 10981,
-      "forks_total": 508,
+      "stars_total": 11018,
+      "forks_total": 509,
       "contributors_visible": 0,
-      "period_stars": 2314,
-      "period_stars_label": "2,314 stars 2026.06.03-2026.07.02"
+      "period_stars": 2370,
+      "period_stars_label": "2,370 stars 2026.06.04-2026.07.03"
+    },
+    {
+      "rank": 19,
+      "owner": "roboflow",
+      "name": "supervision",
+      "full_name": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "stars_total": 46320,
+      "forks_total": 4106,
+      "contributors_visible": 0,
+      "period_stars": 6556,
+      "period_stars_label": "6,556 stars 2026.06.04-2026.07.03"
+    },
+    {
+      "rank": 20,
+      "owner": "OpenCut-app",
+      "name": "OpenCut",
+      "full_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars_total": 61392,
+      "forks_total": 6614,
+      "contributors_visible": 0,
+      "period_stars": 9235,
+      "period_stars_label": "9,235 stars 2026.06.04-2026.07.03"
     }
   ]
 }
