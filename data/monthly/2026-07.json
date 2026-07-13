@@ -1,14 +1,14 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-07-12T04:05:54Z",
+  "run_date_utc": "2026-07-13T04:08:06Z",
   "period": {
-    "start": "2026-06-13",
-    "end": "2026-07-12",
-    "label_iso": "2026-06-13/2026-07-12",
-    "label_compact": "2026.06.13-2026.07.12"
+    "start": "2026-06-14",
+    "end": "2026-07-13",
+    "label_iso": "2026-06-14/2026-07-13",
+    "label_compact": "2026.06.14-2026.07.13"
   },
   "source_url": "https://github.com/trending?since=monthly",
-  "count": 19,
+  "count": 21,
   "items": [
     {
       "rank": 1,
@@ -18,11 +18,11 @@
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "language": "C",
-      "stars_total": 30206,
-      "forks_total": 2410,
+      "stars_total": 30694,
+      "forks_total": 2453,
       "contributors_visible": 0,
-      "period_stars": 26790,
-      "period_stars_label": "26,790 stars 2026.06.13-2026.07.12"
+      "period_stars": 27178,
+      "period_stars_label": "27,178 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/calesthio/OpenMontage",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
-      "stars_total": 37171,
-      "forks_total": 4477,
+      "stars_total": 37606,
+      "forks_total": 4541,
       "contributors_visible": 0,
-      "period_stars": 32538,
-      "period_stars_label": "32,538 stars 2026.06.13-2026.07.12"
+      "period_stars": 32911,
+      "period_stars_label": "32,911 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 3,
@@ -46,11 +46,11 @@
       "url": "https://github.com/Panniantong/Agent-Reach",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "language": "Python",
-      "stars_total": 54984,
-      "forks_total": 4525,
+      "stars_total": 55410,
+      "forks_total": 4571,
       "contributors_visible": 0,
-      "period_stars": 28880,
-      "period_stars_label": "28,880 stars 2026.06.13-2026.07.12"
+      "period_stars": 28973,
+      "period_stars_label": "28,973 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 4,
@@ -60,11 +60,11 @@
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
       "language": "JavaScript",
-      "stars_total": 56287,
-      "forks_total": 9293,
+      "stars_total": 56800,
+      "forks_total": 9397,
       "contributors_visible": 0,
-      "period_stars": 14671,
-      "period_stars_label": "14,671 stars 2026.06.13-2026.07.12"
+      "period_stars": 14973,
+      "period_stars_label": "14,973 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 5,
@@ -74,11 +74,11 @@
       "url": "https://github.com/kunchenguid/no-mistakes",
       "description": "git push no-mistakes",
       "language": "Go",
-      "stars_total": 5931,
-      "forks_total": 520,
+      "stars_total": 6034,
+      "forks_total": 536,
       "contributors_visible": 0,
-      "period_stars": 4652,
-      "period_stars_label": "4,652 stars 2026.06.13-2026.07.12"
+      "period_stars": 4726,
+      "period_stars_label": "4,726 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 6,
@@ -88,11 +88,11 @@
       "url": "https://github.com/usestrix/strix",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "language": "Python",
-      "stars_total": 40595,
-      "forks_total": 4274,
+      "stars_total": 40907,
+      "forks_total": 4316,
       "contributors_visible": 0,
-      "period_stars": 14657,
-      "period_stars_label": "14,657 stars 2026.06.13-2026.07.12"
+      "period_stars": 14993,
+      "period_stars_label": "14,993 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 7,
@@ -102,11 +102,11 @@
       "url": "https://github.com/ogulcancelik/herdr",
       "description": "agent multiplexer that lives in your terminal.",
       "language": "Rust",
-      "stars_total": 15540,
-      "forks_total": 1041,
+      "stars_total": 15844,
+      "forks_total": 1062,
       "contributors_visible": 0,
-      "period_stars": 10125,
-      "period_stars_label": "10,125 stars 2026.06.13-2026.07.12"
+      "period_stars": 10286,
+      "period_stars_label": "10,286 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 8,
@@ -116,11 +116,11 @@
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "language": "TypeScript",
-      "stars_total": 16429,
-      "forks_total": 1287,
+      "stars_total": 17234,
+      "forks_total": 1353,
       "contributors_visible": 0,
-      "period_stars": 11693,
-      "period_stars_label": "11,693 stars 2026.06.13-2026.07.12"
+      "period_stars": 12079,
+      "period_stars_label": "12,079 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 9,
@@ -130,11 +130,11 @@
       "url": "https://github.com/Zackriya-Solutions/meetily",
       "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai ) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
       "language": "Rust",
-      "stars_total": 23241,
-      "forks_total": 2444,
+      "stars_total": 23673,
+      "forks_total": 2490,
       "contributors_visible": 0,
-      "period_stars": 10434,
-      "period_stars_label": "10,434 stars 2026.06.13-2026.07.12"
+      "period_stars": 10839,
+      "period_stars_label": "10,839 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 10,
@@ -144,11 +144,11 @@
       "url": "https://github.com/interviewstreet/hiring-agent",
       "description": "AI agent to evaluate and score resumes.",
       "language": "Python",
-      "stars_total": 5580,
-      "forks_total": 1121,
+      "stars_total": 5661,
+      "forks_total": 1134,
       "contributors_visible": 0,
-      "period_stars": 4473,
-      "period_stars_label": "4,473 stars 2026.06.13-2026.07.12"
+      "period_stars": 4540,
+      "period_stars_label": "4,540 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 11,
@@ -158,25 +158,25 @@
       "url": "https://github.com/alibaba/zvec",
       "description": "A lightweight, lightning-fast, in-process vector database",
       "language": "C++",
-      "stars_total": 14758,
-      "forks_total": 917,
+      "stars_total": 14820,
+      "forks_total": 923,
       "contributors_visible": 0,
-      "period_stars": 5021,
-      "period_stars_label": "5,021 stars 2026.06.13-2026.07.12"
+      "period_stars": 5073,
+      "period_stars_label": "5,073 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 12,
-      "owner": "iptv-org",
-      "name": "iptv",
-      "full_name": "iptv-org/iptv",
-      "url": "https://github.com/iptv-org/iptv",
-      "description": "Collection of publicly available IPTV channels from all over the world",
+      "owner": "diegosouzapw",
+      "name": "OmniRoute",
+      "full_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
       "language": "TypeScript",
-      "stars_total": 132460,
-      "forks_total": 7554,
+      "stars_total": 16309,
+      "forks_total": 2482,
       "contributors_visible": 0,
-      "period_stars": 15068,
-      "period_stars_label": "15,068 stars 2026.06.13-2026.07.12"
+      "period_stars": 10055,
+      "period_stars_label": "10,055 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 13,
@@ -186,53 +186,53 @@
       "url": "https://github.com/alibaba/page-agent",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "language": "TypeScript",
-      "stars_total": 26075,
-      "forks_total": 2397,
+      "stars_total": 26263,
+      "forks_total": 2417,
       "contributors_visible": 0,
-      "period_stars": 7630,
-      "period_stars_label": "7,630 stars 2026.06.13-2026.07.12"
+      "period_stars": 7797,
+      "period_stars_label": "7,797 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 14,
-      "owner": "diegosouzapw",
-      "name": "OmniRoute",
-      "full_name": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-      "language": "TypeScript",
-      "stars_total": 15762,
-      "forks_total": 2390,
-      "contributors_visible": 0,
-      "period_stars": 9525,
-      "period_stars_label": "9,525 stars 2026.06.13-2026.07.12"
-    },
-    {
-      "rank": 15,
       "owner": "simplex-chat",
       "name": "simplex-chat",
       "full_name": "simplex-chat/simplex-chat",
       "url": "https://github.com/simplex-chat/simplex-chat",
       "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
       "language": "Haskell",
-      "stars_total": 18440,
-      "forks_total": 1232,
+      "stars_total": 18521,
+      "forks_total": 1244,
       "contributors_visible": 0,
-      "period_stars": 7317,
-      "period_stars_label": "7,317 stars 2026.06.13-2026.07.12"
+      "period_stars": 7392,
+      "period_stars_label": "7,392 stars 2026.06.14-2026.07.13"
+    },
+    {
+      "rank": 15,
+      "owner": "iptv-org",
+      "name": "iptv",
+      "full_name": "iptv-org/iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars_total": 132645,
+      "forks_total": 7569,
+      "contributors_visible": 0,
+      "period_stars": 15178,
+      "period_stars_label": "15,178 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 16,
-      "owner": "NVIDIA",
-      "name": "SkillSpector",
-      "full_name": "NVIDIA/SkillSpector",
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-      "language": "Python",
-      "stars_total": 12911,
-      "forks_total": 1056,
+      "owner": "gabime",
+      "name": "spdlog",
+      "full_name": "gabime/spdlog",
+      "url": "https://github.com/gabime/spdlog",
+      "description": "Fast C++ logging library.",
+      "language": "C++",
+      "stars_total": 29179,
+      "forks_total": 5323,
       "contributors_visible": 0,
-      "period_stars": 10589,
-      "period_stars_label": "10,589 stars 2026.06.13-2026.07.12"
+      "period_stars": 308,
+      "period_stars_label": "308 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 17,
@@ -242,39 +242,67 @@
       "url": "https://github.com/n0-computer/iroh",
       "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
       "language": "Rust",
-      "stars_total": 11523,
-      "forks_total": 676,
+      "stars_total": 11601,
+      "forks_total": 680,
       "contributors_visible": 0,
-      "period_stars": 2815,
-      "period_stars_label": "2,815 stars 2026.06.13-2026.07.12"
+      "period_stars": 2909,
+      "period_stars_label": "2,909 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 18,
-      "owner": "gabime",
-      "name": "spdlog",
-      "full_name": "gabime/spdlog",
-      "url": "https://github.com/gabime/spdlog",
-      "description": "Fast C++ logging library.",
-      "language": "C++",
-      "stars_total": 29163,
-      "forks_total": 5318,
+      "owner": "NVIDIA",
+      "name": "SkillSpector",
+      "full_name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "language": "Python",
+      "stars_total": 13038,
+      "forks_total": 1059,
       "contributors_visible": 0,
-      "period_stars": 297,
-      "period_stars_label": "297 stars 2026.06.13-2026.07.12"
+      "period_stars": 9876,
+      "period_stars_label": "9,876 stars 2026.06.14-2026.07.13"
     },
     {
       "rank": 19,
-      "owner": "apple",
-      "name": "container",
-      "full_name": "apple/container",
-      "url": "https://github.com/apple/container",
-      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-      "language": "Swift",
-      "stars_total": 47585,
-      "forks_total": 1590,
+      "owner": "mauriceboe",
+      "name": "TREK",
+      "full_name": "mauriceboe/TREK",
+      "url": "https://github.com/mauriceboe/TREK",
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "language": "TypeScript",
+      "stars_total": 10214,
+      "forks_total": 968,
       "contributors_visible": 0,
-      "period_stars": 16789,
-      "period_stars_label": "16,789 stars 2026.06.13-2026.07.12"
+      "period_stars": 4546,
+      "period_stars_label": "4,546 stars 2026.06.14-2026.07.13"
+    },
+    {
+      "rank": 20,
+      "owner": "ocornut",
+      "name": "imgui",
+      "full_name": "ocornut/imgui",
+      "url": "https://github.com/ocornut/imgui",
+      "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+      "language": "C++",
+      "stars_total": 74546,
+      "forks_total": 12002,
+      "contributors_visible": 0,
+      "period_stars": 843,
+      "period_stars_label": "843 stars 2026.06.14-2026.07.13"
+    },
+    {
+      "rank": 21,
+      "owner": "topoteretes",
+      "name": "cognee",
+      "full_name": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "language": "Python",
+      "stars_total": 27673,
+      "forks_total": 2743,
+      "contributors_visible": 0,
+      "period_stars": 9895,
+      "period_stars_label": "9,895 stars 2026.06.14-2026.07.13"
     }
   ]
 }
