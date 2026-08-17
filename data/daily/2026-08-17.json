@@ -1,0 +1,112 @@
+{
+  "granularity": "daily",
+  "run_date_utc": "2026-08-17T02:00:40Z",
+  "period": {
+    "start": "2026-08-17",
+    "end": "2026-08-17",
+    "label_iso": "2026-08-17",
+    "label_compact": "2026.08.17"
+  },
+  "source_url": "https://github.com/trending?since=daily",
+  "count": 7,
+  "items": [
+    {
+      "rank": 1,
+      "owner": "cordiverse",
+      "name": "cordis",
+      "full_name": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "language": "TypeScript",
+      "stars_total": 4817,
+      "forks_total": 262,
+      "contributors_visible": 0,
+      "period_stars": 720,
+      "period_stars_label": "720 stars 2026.08.17"
+    },
+    {
+      "rank": 2,
+      "owner": "basecamp",
+      "name": "omarchy",
+      "full_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "language": "Shell",
+      "stars_total": 25432,
+      "forks_total": 2596,
+      "contributors_visible": 0,
+      "period_stars": 270,
+      "period_stars_label": "270 stars 2026.08.17"
+    },
+    {
+      "rank": 3,
+      "owner": "unslothai",
+      "name": "unsloth",
+      "full_name": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "stars_total": 72636,
+      "forks_total": 6551,
+      "contributors_visible": 0,
+      "period_stars": 572,
+      "period_stars_label": "572 stars 2026.08.17"
+    },
+    {
+      "rank": 4,
+      "owner": "OpenCut-app",
+      "name": "OpenCut",
+      "full_name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars_total": 83933,
+      "forks_total": 8290,
+      "contributors_visible": 0,
+      "period_stars": 150,
+      "period_stars_label": "150 stars 2026.08.17"
+    },
+    {
+      "rank": 5,
+      "owner": "public-apis",
+      "name": "public-apis",
+      "full_name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars_total": 461857,
+      "forks_total": 51017,
+      "contributors_visible": 0,
+      "period_stars": 1588,
+      "period_stars_label": "1,588 stars 2026.08.17"
+    },
+    {
+      "rank": 6,
+      "owner": "ToolJet",
+      "name": "ToolJet",
+      "full_name": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "language": "JavaScript",
+      "stars_total": 40073,
+      "forks_total": 5331,
+      "contributors_visible": 0,
+      "period_stars": 452,
+      "period_stars_label": "452 stars 2026.08.17"
+    },
+    {
+      "rank": 7,
+      "owner": "cactus-compute",
+      "name": "needle",
+      "full_name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "stars_total": 6621,
+      "forks_total": 435,
+      "contributors_visible": 0,
+      "period_stars": 443,
+      "period_stars_label": "443 stars 2026.08.17"
+    }
+  ]
+}
