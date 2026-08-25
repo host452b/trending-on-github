@@ -1,11 +1,11 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-08-24T02:06:07Z",
+  "run_date_utc": "2026-08-25T01:58:36Z",
   "period": {
-    "start": "2026-07-26",
-    "end": "2026-08-24",
-    "label_iso": "2026-07-26/2026-08-24",
-    "label_compact": "2026.07.26-2026.08.24"
+    "start": "2026-07-27",
+    "end": "2026-08-25",
+    "label_iso": "2026-07-27/2026-08-25",
+    "label_compact": "2026.07.27-2026.08.25"
   },
   "source_url": "https://github.com/trending?since=monthly",
   "count": 19,
@@ -18,11 +18,11 @@
       "url": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
       "language": "Rust",
-      "stars_total": 30140,
-      "forks_total": 3833,
+      "stars_total": 30496,
+      "forks_total": 3872,
       "contributors_visible": 0,
-      "period_stars": 24429,
-      "period_stars_label": "24,429 stars 2026.07.26-2026.08.24"
+      "period_stars": 21856,
+      "period_stars_label": "21,856 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
       "language": "TypeScript",
-      "stars_total": 24046,
-      "forks_total": 2215,
+      "stars_total": 24266,
+      "forks_total": 2232,
       "contributors_visible": 0,
-      "period_stars": 14878,
-      "period_stars_label": "14,878 stars 2026.07.26-2026.08.24"
+      "period_stars": 15093,
+      "period_stars_label": "15,093 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 3,
@@ -46,39 +46,39 @@
       "url": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "stars_total": 23498,
-      "forks_total": 1504,
+      "stars_total": 23855,
+      "forks_total": 1532,
       "contributors_visible": 0,
-      "period_stars": 14450,
-      "period_stars_label": "14,450 stars 2026.07.26-2026.08.24"
+      "period_stars": 14346,
+      "period_stars_label": "14,346 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 4,
-      "owner": "zhaoxuya520",
-      "name": "reverse-skill",
-      "full_name": "zhaoxuya520/reverse-skill",
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "language": "PowerShell",
-      "stars_total": 27939,
-      "forks_total": 3805,
-      "contributors_visible": 0,
-      "period_stars": 19063,
-      "period_stars_label": "19,063 stars 2026.07.26-2026.08.24"
-    },
-    {
-      "rank": 5,
       "owner": "basecamp",
       "name": "omarchy",
       "full_name": "basecamp/omarchy",
       "url": "https://github.com/basecamp/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
-      "stars_total": 29180,
-      "forks_total": 2965,
+      "stars_total": 30205,
+      "forks_total": 3064,
       "contributors_visible": 0,
-      "period_stars": 4850,
-      "period_stars_label": "4,850 stars 2026.07.26-2026.08.24"
+      "period_stars": 5853,
+      "period_stars_label": "5,853 stars 2026.07.27-2026.08.25"
+    },
+    {
+      "rank": 5,
+      "owner": "zhaoxuya520",
+      "name": "reverse-skill",
+      "full_name": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "stars_total": 28759,
+      "forks_total": 3917,
+      "contributors_visible": 0,
+      "period_stars": 19889,
+      "period_stars_label": "19,889 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 6,
@@ -88,39 +88,39 @@
       "url": "https://github.com/microsoft/AI-For-Beginners",
       "description": "12 Weeks, 24 Lessons, AI for All!",
       "language": "Jupyter Notebook",
-      "stars_total": 66551,
-      "forks_total": 12863,
+      "stars_total": 66774,
+      "forks_total": 12893,
       "contributors_visible": 0,
-      "period_stars": 13993,
-      "period_stars_label": "13,993 stars 2026.07.26-2026.08.24"
+      "period_stars": 14152,
+      "period_stars_label": "14,152 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 7,
-      "owner": "diegosouzapw",
-      "name": "OmniRoute",
-      "full_name": "diegosouzapw/OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors",
-      "language": "TypeScript",
-      "stars_total": 53894,
-      "forks_total": 7373,
-      "contributors_visible": 0,
-      "period_stars": 27573,
-      "period_stars_label": "27,573 stars 2026.07.26-2026.08.24"
-    },
-    {
-      "rank": 8,
       "owner": "virgiliojr94",
       "name": "book-to-skill",
       "full_name": "virgiliojr94/book-to-skill",
       "url": "https://github.com/virgiliojr94/book-to-skill",
       "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
       "language": "Python",
-      "stars_total": 24701,
-      "forks_total": 2585,
+      "stars_total": 25248,
+      "forks_total": 2623,
       "contributors_visible": 0,
-      "period_stars": 15086,
-      "period_stars_label": "15,086 stars 2026.07.26-2026.08.24"
+      "period_stars": 15714,
+      "period_stars_label": "15,714 stars 2026.07.27-2026.08.25"
+    },
+    {
+      "rank": 8,
+      "owner": "diegosouzapw",
+      "name": "OmniRoute",
+      "full_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors",
+      "language": "TypeScript",
+      "stars_total": 54491,
+      "forks_total": 7454,
+      "contributors_visible": 0,
+      "period_stars": 26484,
+      "period_stars_label": "26,484 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 9,
@@ -130,53 +130,53 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": null,
       "language": "TypeScript",
-      "stars_total": 20191,
-      "forks_total": 4771,
+      "stars_total": 20365,
+      "forks_total": 4817,
       "contributors_visible": 0,
-      "period_stars": 5876,
-      "period_stars_label": "5,876 stars 2026.07.26-2026.08.24"
+      "period_stars": 5873,
+      "period_stars_label": "5,873 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 10,
-      "owner": "citrolabs",
-      "name": "ego-lite",
-      "full_name": "citrolabs/ego-lite",
-      "url": "https://github.com/citrolabs/ego-lite",
-      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "language": "JavaScript",
-      "stars_total": 12989,
-      "forks_total": 676,
-      "contributors_visible": 0,
-      "period_stars": 11598,
-      "period_stars_label": "11,598 stars 2026.07.26-2026.08.24"
-    },
-    {
-      "rank": 11,
       "owner": "bojieli",
       "name": "ai-agent-book",
       "full_name": "bojieli/ai-agent-book",
       "url": "https://github.com/bojieli/ai-agent-book",
       "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
       "language": "Python",
-      "stars_total": 41236,
-      "forks_total": 4554,
+      "stars_total": 41800,
+      "forks_total": 4616,
       "contributors_visible": 0,
-      "period_stars": 23452,
-      "period_stars_label": "23,452 stars 2026.07.26-2026.08.24"
+      "period_stars": 23084,
+      "period_stars_label": "23,084 stars 2026.07.27-2026.08.25"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "owner": "cactus-compute",
       "name": "needle",
       "full_name": "cactus-compute/needle",
       "url": "https://github.com/cactus-compute/needle",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "language": "Python",
-      "stars_total": 8757,
-      "forks_total": 565,
+      "stars_total": 8973,
+      "forks_total": 583,
       "contributors_visible": 0,
-      "period_stars": 5464,
-      "period_stars_label": "5,464 stars 2026.07.26-2026.08.24"
+      "period_stars": 5654,
+      "period_stars_label": "5,654 stars 2026.07.27-2026.08.25"
+    },
+    {
+      "rank": 12,
+      "owner": "citrolabs",
+      "name": "ego-lite",
+      "full_name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "stars_total": 13267,
+      "forks_total": 690,
+      "contributors_visible": 0,
+      "period_stars": 11039,
+      "period_stars_label": "11,039 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 13,
@@ -186,11 +186,11 @@
       "url": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "stars_total": 32518,
-      "forks_total": 2483,
+      "stars_total": 32999,
+      "forks_total": 2515,
       "contributors_visible": 0,
-      "period_stars": 5332,
-      "period_stars_label": "5,332 stars 2026.07.26-2026.08.24"
+      "period_stars": 5784,
+      "period_stars_label": "5,784 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 14,
@@ -200,11 +200,11 @@
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars_total": 233949,
-      "forks_total": 19949,
+      "stars_total": 235455,
+      "forks_total": 20065,
       "contributors_visible": 0,
-      "period_stars": 50629,
-      "period_stars_label": "50,629 stars 2026.07.26-2026.08.24"
+      "period_stars": 50069,
+      "period_stars_label": "50,069 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 15,
@@ -214,11 +214,11 @@
       "url": "https://github.com/1jehuang/jcode",
       "description": "The most RAM efficient harness",
       "language": "Rust",
-      "stars_total": 18360,
-      "forks_total": 2068,
+      "stars_total": 18465,
+      "forks_total": 2079,
       "contributors_visible": 0,
-      "period_stars": 7570,
-      "period_stars_label": "7,570 stars 2026.07.26-2026.08.24"
+      "period_stars": 7469,
+      "period_stars_label": "7,469 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 16,
@@ -228,11 +228,11 @@
       "url": "https://github.com/earendil-works/pi",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "language": "TypeScript",
-      "stars_total": 95961,
-      "forks_total": 11874,
+      "stars_total": 96656,
+      "forks_total": 11942,
       "contributors_visible": 0,
-      "period_stars": 20046,
-      "period_stars_label": "20,046 stars 2026.07.26-2026.08.24"
+      "period_stars": 19957,
+      "period_stars_label": "19,957 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 17,
@@ -242,11 +242,11 @@
       "url": "https://github.com/megadose/holehe",
       "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
       "language": "Python",
-      "stars_total": 14076,
-      "forks_total": 1822,
+      "stars_total": 14158,
+      "forks_total": 1824,
       "contributors_visible": 0,
-      "period_stars": 2328,
-      "period_stars_label": "2,328 stars 2026.07.26-2026.08.24"
+      "period_stars": 2386,
+      "period_stars_label": "2,386 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 18,
@@ -256,25 +256,25 @@
       "url": "https://github.com/modular/modular",
       "description": "The Modular Platform (includes MAX & Mojo)",
       "language": "Mojo",
-      "stars_total": 28986,
-      "forks_total": 3077,
+      "stars_total": 29074,
+      "forks_total": 3094,
       "contributors_visible": 0,
-      "period_stars": 2426,
-      "period_stars_label": "2,426 stars 2026.07.26-2026.08.24"
+      "period_stars": 2539,
+      "period_stars_label": "2,539 stars 2026.07.27-2026.08.25"
     },
     {
       "rank": 19,
-      "owner": "lyogavin",
-      "name": "airllm",
-      "full_name": "lyogavin/airllm",
-      "url": "https://github.com/lyogavin/airllm",
-      "description": "AirLLM 70B inference with single 4GB GPU",
-      "language": "Jupyter Notebook",
-      "stars_total": 32293,
-      "forks_total": 3417,
+      "owner": "akitaonrails",
+      "name": "ai-memory",
+      "full_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars_total": 4418,
+      "forks_total": 321,
       "contributors_visible": 0,
-      "period_stars": 8428,
-      "period_stars_label": "8,428 stars 2026.07.26-2026.08.24"
+      "period_stars": 3151,
+      "period_stars_label": "3,151 stars 2026.07.27-2026.08.25"
     }
   ]
 }
