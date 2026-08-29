@@ -1,11 +1,11 @@
 {
   "granularity": "weekly",
-  "run_date_utc": "2026-08-28T11:36:22Z",
+  "run_date_utc": "2026-08-29T07:14:30Z",
   "period": {
-    "start": "2026-08-22",
-    "end": "2026-08-28",
-    "label_iso": "2026-08-22/2026-08-28",
-    "label_compact": "2026.08.22-2026.08.28"
+    "start": "2026-08-23",
+    "end": "2026-08-29",
+    "label_iso": "2026-08-23/2026-08-29",
+    "label_compact": "2026.08.23-2026.08.29"
   },
   "source_url": "https://github.com/trending?since=weekly",
   "count": 19,
@@ -18,11 +18,11 @@
       "url": "https://github.com/anthropics/claude-plugins-community",
       "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "language": "Python",
-      "stars_total": 2481,
-      "forks_total": 210,
+      "stars_total": 2632,
+      "forks_total": 217,
       "contributors_visible": 0,
-      "period_stars": 2069,
-      "period_stars_label": "2,069 stars 2026.08.22-2026.08.28"
+      "period_stars": 2207,
+      "period_stars_label": "2,207 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "language": "JavaScript",
-      "stars_total": 23940,
-      "forks_total": 2369,
+      "stars_total": 24493,
+      "forks_total": 2419,
       "contributors_visible": 0,
-      "period_stars": 11300,
-      "period_stars_label": "11,300 stars 2026.08.22-2026.08.28"
+      "period_stars": 12877,
+      "period_stars_label": "12,877 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 3,
@@ -46,11 +46,11 @@
       "url": "https://github.com/basecamp/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
-      "stars_total": 32898,
-      "forks_total": 3399,
+      "stars_total": 33856,
+      "forks_total": 3498,
       "contributors_visible": 0,
-      "period_stars": 5593,
-      "period_stars_label": "5,593 stars 2026.08.22-2026.08.28"
+      "period_stars": 5942,
+      "period_stars_label": "5,942 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 4,
@@ -60,11 +60,11 @@
       "url": "https://github.com/openai/codex",
       "description": "Lightweight coding agent that runs in your terminal",
       "language": "Rust",
-      "stars_total": 119444,
-      "forks_total": 18225,
+      "stars_total": 119653,
+      "forks_total": 18276,
       "contributors_visible": 0,
-      "period_stars": 12358,
-      "period_stars_label": "12,358 stars 2026.08.22-2026.08.28"
+      "period_stars": 9109,
+      "period_stars_label": "9,109 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 5,
@@ -74,11 +74,11 @@
       "url": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "stars_total": 25332,
-      "forks_total": 1629,
+      "stars_total": 28483,
+      "forks_total": 1789,
       "contributors_visible": 0,
-      "period_stars": 8530,
-      "period_stars_label": "8,530 stars 2026.08.22-2026.08.28"
+      "period_stars": 11099,
+      "period_stars_label": "11,099 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 6,
@@ -88,11 +88,11 @@
       "url": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
-      "stars_total": 17268,
-      "forks_total": 492,
+      "stars_total": 17472,
+      "forks_total": 503,
       "contributors_visible": 0,
-      "period_stars": 5946,
-      "period_stars_label": "5,946 stars 2026.08.22-2026.08.28"
+      "period_stars": 4825,
+      "period_stars_label": "4,825 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 7,
@@ -102,11 +102,11 @@
       "url": "https://github.com/apache/maka",
       "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
       "language": "TypeScript",
-      "stars_total": 3836,
-      "forks_total": 359,
+      "stars_total": 3931,
+      "forks_total": 366,
       "contributors_visible": 0,
-      "period_stars": 1978,
-      "period_stars_label": "1,978 stars 2026.08.22-2026.08.28"
+      "period_stars": 1918,
+      "period_stars_label": "1,918 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 8,
@@ -116,11 +116,11 @@
       "url": "https://github.com/tashfeenahmed/freellmapi",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "language": "TypeScript",
-      "stars_total": 21291,
-      "forks_total": 3034,
+      "stars_total": 21756,
+      "forks_total": 3076,
       "contributors_visible": 0,
-      "period_stars": 2014,
-      "period_stars_label": "2,014 stars 2026.08.22-2026.08.28"
+      "period_stars": 2162,
+      "period_stars_label": "2,162 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 9,
@@ -130,11 +130,11 @@
       "url": "https://github.com/modular/modular",
       "description": "The Modular Platform (includes MAX & Mojo)",
       "language": "Mojo",
-      "stars_total": 29277,
-      "forks_total": 3116,
+      "stars_total": 29313,
+      "forks_total": 3122,
       "contributors_visible": 0,
-      "period_stars": 1770,
-      "period_stars_label": "1,770 stars 2026.08.22-2026.08.28"
+      "period_stars": 875,
+      "period_stars_label": "875 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 10,
@@ -144,11 +144,11 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars_total": 5819,
-      "forks_total": 470,
+      "stars_total": 6024,
+      "forks_total": 480,
       "contributors_visible": 0,
-      "period_stars": 1732,
-      "period_stars_label": "1,732 stars 2026.08.22-2026.08.28"
+      "period_stars": 1594,
+      "period_stars_label": "1,594 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 11,
@@ -158,11 +158,11 @@
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "language": "Python",
-      "stars_total": 37427,
-      "forks_total": 12683,
+      "stars_total": 37837,
+      "forks_total": 12809,
       "contributors_visible": 0,
-      "period_stars": 4706,
-      "period_stars_label": "4,706 stars 2026.08.22-2026.08.28"
+      "period_stars": 4828,
+      "period_stars_label": "4,828 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 12,
@@ -172,11 +172,11 @@
       "url": "https://github.com/tinyhumansai/openhuman",
       "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
       "language": "Rust",
-      "stars_total": 38647,
-      "forks_total": 3794,
+      "stars_total": 38759,
+      "forks_total": 3805,
       "contributors_visible": 0,
-      "period_stars": 2178,
-      "period_stars_label": "2,178 stars 2026.08.22-2026.08.28"
+      "period_stars": 2353,
+      "period_stars_label": "2,353 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 13,
@@ -186,11 +186,11 @@
       "url": "https://github.com/anthropics/claude-plugins-official",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars_total": 34840,
-      "forks_total": 3923,
+      "stars_total": 35128,
+      "forks_total": 3940,
       "contributors_visible": 0,
-      "period_stars": 928,
-      "period_stars_label": "928 stars 2026.08.22-2026.08.28"
+      "period_stars": 1281,
+      "period_stars_label": "1,281 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 14,
@@ -200,11 +200,11 @@
       "url": "https://github.com/VoltAgent/awesome-agent-skills",
       "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
       "language": null,
-      "stars_total": 32963,
-      "forks_total": 3481,
+      "stars_total": 33115,
+      "forks_total": 3496,
       "contributors_visible": 0,
-      "period_stars": 2324,
-      "period_stars_label": "2,324 stars 2026.08.22-2026.08.28"
+      "period_stars": 2372,
+      "period_stars_label": "2,372 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 15,
@@ -214,11 +214,11 @@
       "url": "https://github.com/PostHog/posthog",
       "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
       "language": "Python",
-      "stars_total": 39387,
-      "forks_total": 3302,
+      "stars_total": 39445,
+      "forks_total": 3309,
       "contributors_visible": 0,
-      "period_stars": 1511,
-      "period_stars_label": "1,511 stars 2026.08.22-2026.08.28"
+      "period_stars": 1270,
+      "period_stars_label": "1,270 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 16,
@@ -228,11 +228,11 @@
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars_total": 50438,
-      "forks_total": 8759,
+      "stars_total": 50718,
+      "forks_total": 8790,
       "contributors_visible": 0,
-      "period_stars": 2853,
-      "period_stars_label": "2,853 stars 2026.08.22-2026.08.28"
+      "period_stars": 3263,
+      "period_stars_label": "3,263 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 17,
@@ -242,11 +242,11 @@
       "url": "https://github.com/Alishahryar1/free-claude-code",
       "description": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
-      "stars_total": 50994,
-      "forks_total": 8228,
+      "stars_total": 51246,
+      "forks_total": 8253,
       "contributors_visible": 0,
-      "period_stars": 4657,
-      "period_stars_label": "4,657 stars 2026.08.22-2026.08.28"
+      "period_stars": 4769,
+      "period_stars_label": "4,769 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 18,
@@ -256,11 +256,11 @@
       "url": "https://github.com/chaitanyagiri/munder-difflin",
       "description": "local multi-agent harness",
       "language": "JavaScript",
-      "stars_total": 5128,
-      "forks_total": 612,
+      "stars_total": 5243,
+      "forks_total": 632,
       "contributors_visible": 0,
-      "period_stars": 2017,
-      "period_stars_label": "2,017 stars 2026.08.22-2026.08.28"
+      "period_stars": 1853,
+      "period_stars_label": "1,853 stars 2026.08.23-2026.08.29"
     },
     {
       "rank": 19,
@@ -270,11 +270,11 @@
       "url": "https://github.com/bookorbit/bookorbit",
       "description": "BookOrbit: Your Reading Space",
       "language": "TypeScript",
-      "stars_total": 3436,
-      "forks_total": 210,
+      "stars_total": 3551,
+      "forks_total": 212,
       "contributors_visible": 0,
-      "period_stars": 803,
-      "period_stars_label": "803 stars 2026.08.22-2026.08.28"
+      "period_stars": 806,
+      "period_stars_label": "806 stars 2026.08.23-2026.08.29"
     }
   ]
 }
