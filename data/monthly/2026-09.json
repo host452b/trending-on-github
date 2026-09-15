@@ -1,14 +1,14 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-09-14T05:14:36Z",
+  "run_date_utc": "2026-09-15T05:07:39Z",
   "period": {
-    "start": "2026-08-16",
-    "end": "2026-09-14",
-    "label_iso": "2026-08-16/2026-09-14",
-    "label_compact": "2026.08.16-2026.09.14"
+    "start": "2026-08-17",
+    "end": "2026-09-15",
+    "label_iso": "2026-08-17/2026-09-15",
+    "label_compact": "2026.08.17-2026.09.15"
   },
   "source_url": "https://github.com/trending?since=monthly",
-  "count": 17,
+  "count": 19,
   "items": [
     {
       "rank": 1,
@@ -18,11 +18,11 @@
       "url": "https://github.com/omacom/omarchy",
       "description": "Beautiful, Modern & Opinionated Linux",
       "language": "Shell",
-      "stars_total": 40905,
-      "forks_total": 4590,
+      "stars_total": 41118,
+      "forks_total": 4631,
       "contributors_visible": 0,
-      "period_stars": 16489,
-      "period_stars_label": "16,489 stars 2026.08.16-2026.09.14"
+      "period_stars": 16712,
+      "period_stars_label": "16,712 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "stars_total": 61117,
-      "forks_total": 4021,
+      "stars_total": 62550,
+      "forks_total": 4135,
       "contributors_visible": 0,
-      "period_stars": 48808,
-      "period_stars_label": "48,808 stars 2026.08.16-2026.09.14"
+      "period_stars": 49900,
+      "period_stars_label": "49,900 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 3,
@@ -46,11 +46,11 @@
       "url": "https://github.com/anthropics/claude-plugins-community",
       "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "language": "Python",
-      "stars_total": 3955,
-      "forks_total": 290,
+      "stars_total": 4043,
+      "forks_total": 297,
       "contributors_visible": 0,
-      "period_stars": 3635,
-      "period_stars_label": "3,635 stars 2026.08.16-2026.09.14"
+      "period_stars": 3715,
+      "period_stars_label": "3,715 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 4,
@@ -60,11 +60,11 @@
       "url": "https://github.com/AprilNEA/OpenLogi",
       "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
       "language": "Rust",
-      "stars_total": 20969,
-      "forks_total": 674,
+      "stars_total": 21108,
+      "forks_total": 679,
       "contributors_visible": 0,
-      "period_stars": 12557,
-      "period_stars_label": "12,557 stars 2026.08.16-2026.09.14"
+      "period_stars": 12695,
+      "period_stars_label": "12,695 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 5,
@@ -74,11 +74,11 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars_total": 7636,
-      "forks_total": 674,
+      "stars_total": 7765,
+      "forks_total": 688,
       "contributors_visible": 0,
-      "period_stars": 4967,
-      "period_stars_label": "4,967 stars 2026.08.16-2026.09.14"
+      "period_stars": 5026,
+      "period_stars_label": "5,026 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 6,
@@ -88,39 +88,39 @@
       "url": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
-      "stars_total": 37072,
-      "forks_total": 2849,
+      "stars_total": 37306,
+      "forks_total": 2872,
       "contributors_visible": 0,
-      "period_stars": 8745,
-      "period_stars_label": "8,745 stars 2026.08.16-2026.09.14"
+      "period_stars": 8921,
+      "period_stars_label": "8,921 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 7,
-      "owner": "cathrynlavery",
-      "name": "diagram-design",
-      "full_name": "cathrynlavery/diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "language": "HTML",
-      "stars_total": 39347,
-      "forks_total": 2498,
-      "contributors_visible": 0,
-      "period_stars": 26213,
-      "period_stars_label": "26,213 stars 2026.08.16-2026.09.14"
-    },
-    {
-      "rank": 8,
       "owner": "freestylefly",
       "name": "awesome-gpt-image-2",
       "full_name": "freestylefly/awesome-gpt-image-2",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
       "language": "JavaScript",
-      "stars_total": 31709,
-      "forks_total": 3067,
+      "stars_total": 31942,
+      "forks_total": 3077,
       "contributors_visible": 0,
-      "period_stars": 21897,
-      "period_stars_label": "21,897 stars 2026.08.16-2026.09.14"
+      "period_stars": 22081,
+      "period_stars_label": "22,081 stars 2026.08.17-2026.09.15"
+    },
+    {
+      "rank": 8,
+      "owner": "cathrynlavery",
+      "name": "diagram-design",
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars_total": 39915,
+      "forks_total": 2531,
+      "contributors_visible": 0,
+      "period_stars": 23268,
+      "period_stars_label": "23,268 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 9,
@@ -130,11 +130,11 @@
       "url": "https://github.com/THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "stars_total": 36561,
-      "forks_total": 5795,
+      "stars_total": 36904,
+      "forks_total": 5828,
       "contributors_visible": 0,
-      "period_stars": 15888,
-      "period_stars_label": "15,888 stars 2026.08.16-2026.09.14"
+      "period_stars": 16207,
+      "period_stars_label": "16,207 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 10,
@@ -144,11 +144,11 @@
       "url": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "stars_total": 44574,
-      "forks_total": 2568,
+      "stars_total": 45602,
+      "forks_total": 2645,
       "contributors_visible": 0,
-      "period_stars": 24025,
-      "period_stars_label": "24,025 stars 2026.08.16-2026.09.14"
+      "period_stars": 24963,
+      "period_stars_label": "24,963 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 11,
@@ -158,67 +158,67 @@
       "url": "https://github.com/vorssaint/vorssaint-utils",
       "description": "Free and open-source macOS menu bar toolkit.",
       "language": "Swift",
-      "stars_total": 18805,
-      "forks_total": 673,
+      "stars_total": 19049,
+      "forks_total": 681,
       "contributors_visible": 0,
-      "period_stars": 13520,
-      "period_stars_label": "13,520 stars 2026.08.16-2026.09.14"
+      "period_stars": 13706,
+      "period_stars_label": "13,706 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 12,
-      "owner": "modular",
-      "name": "modular",
-      "full_name": "modular/modular",
-      "url": "https://github.com/modular/modular",
-      "description": "The Modular Platform (includes MAX & Mojo)",
-      "language": "Mojo",
-      "stars_total": 29732,
-      "forks_total": 3169,
-      "contributors_visible": 0,
-      "period_stars": 3049,
-      "period_stars_label": "3,049 stars 2026.08.16-2026.09.14"
-    },
-    {
-      "rank": 13,
-      "owner": "akitaonrails",
-      "name": "ai-memory",
-      "full_name": "akitaonrails/ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "language": "Rust",
-      "stars_total": 6711,
-      "forks_total": 453,
-      "contributors_visible": 0,
-      "period_stars": 5269,
-      "period_stars_label": "5,269 stars 2026.08.16-2026.09.14"
-    },
-    {
-      "rank": 14,
-      "owner": "Lakr233",
-      "name": "vphone-cli",
-      "full_name": "Lakr233/vphone-cli",
-      "url": "https://github.com/Lakr233/vphone-cli",
-      "description": null,
-      "language": "Swift",
-      "stars_total": 11859,
-      "forks_total": 1494,
-      "contributors_visible": 0,
-      "period_stars": 4221,
-      "period_stars_label": "4,221 stars 2026.08.16-2026.09.14"
-    },
-    {
-      "rank": 15,
       "owner": "debpalash",
       "name": "VoiceStudio",
       "full_name": "debpalash/VoiceStudio",
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars_total": 27343,
-      "forks_total": 3366,
+      "stars_total": 29637,
+      "forks_total": 3587,
       "contributors_visible": 0,
-      "period_stars": 15895,
-      "period_stars_label": "15,895 stars 2026.08.16-2026.09.14"
+      "period_stars": 18692,
+      "period_stars_label": "18,692 stars 2026.08.17-2026.09.15"
+    },
+    {
+      "rank": 13,
+      "owner": "modular",
+      "name": "modular",
+      "full_name": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "language": "Mojo",
+      "stars_total": 29749,
+      "forks_total": 3173,
+      "contributors_visible": 0,
+      "period_stars": 3049,
+      "period_stars_label": "3,049 stars 2026.08.17-2026.09.15"
+    },
+    {
+      "rank": 14,
+      "owner": "akitaonrails",
+      "name": "ai-memory",
+      "full_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars_total": 6841,
+      "forks_total": 460,
+      "contributors_visible": 0,
+      "period_stars": 5351,
+      "period_stars_label": "5,351 stars 2026.08.17-2026.09.15"
+    },
+    {
+      "rank": 15,
+      "owner": "Lakr233",
+      "name": "vphone-cli",
+      "full_name": "Lakr233/vphone-cli",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "description": null,
+      "language": "Swift",
+      "stars_total": 12225,
+      "forks_total": 1521,
+      "contributors_visible": 0,
+      "period_stars": 4310,
+      "period_stars_label": "4,310 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 16,
@@ -228,25 +228,53 @@
       "url": "https://github.com/apache/maka",
       "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
       "language": "TypeScript",
-      "stars_total": 5360,
-      "forks_total": 497,
+      "stars_total": 5421,
+      "forks_total": 502,
       "contributors_visible": 0,
-      "period_stars": 4056,
-      "period_stars_label": "4,056 stars 2026.08.16-2026.09.14"
+      "period_stars": 4111,
+      "period_stars_label": "4,111 stars 2026.08.17-2026.09.15"
     },
     {
       "rank": 17,
-      "owner": "cordiverse",
-      "name": "cordis",
-      "full_name": "cordiverse/cordis",
-      "url": "https://github.com/cordiverse/cordis",
-      "description": "Meta-Framework of Spatiotemporal Composability",
-      "language": "TypeScript",
-      "stars_total": 8466,
-      "forks_total": 530,
+      "owner": "microsoft",
+      "name": "data-formulator",
+      "full_name": "microsoft/data-formulator",
+      "url": "https://github.com/microsoft/data-formulator",
+      "description": "🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.",
+      "language": "Python",
+      "stars_total": 17197,
+      "forks_total": 1673,
       "contributors_visible": 0,
-      "period_stars": 7887,
-      "period_stars_label": "7,887 stars 2026.08.16-2026.09.14"
+      "period_stars": 1158,
+      "period_stars_label": "1,158 stars 2026.08.17-2026.09.15"
+    },
+    {
+      "rank": 18,
+      "owner": "public-apis",
+      "name": "public-apis",
+      "full_name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars_total": 480280,
+      "forks_total": 52975,
+      "contributors_visible": 0,
+      "period_stars": 23551,
+      "period_stars_label": "23,551 stars 2026.08.17-2026.09.15"
+    },
+    {
+      "rank": 19,
+      "owner": "google-research",
+      "name": "timesfm",
+      "full_name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars_total": 32519,
+      "forks_total": 3115,
+      "contributors_visible": 0,
+      "period_stars": 5252,
+      "period_stars_label": "5,252 stars 2026.08.17-2026.09.15"
     }
   ]
 }
