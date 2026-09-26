@@ -1,11 +1,11 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-09-25T05:09:52Z",
+  "run_date_utc": "2026-09-26T05:15:48Z",
   "period": {
-    "start": "2026-08-27",
-    "end": "2026-09-25",
-    "label_iso": "2026-08-27/2026-09-25",
-    "label_compact": "2026.08.27-2026.09.25"
+    "start": "2026-08-28",
+    "end": "2026-09-26",
+    "label_iso": "2026-08-28/2026-09-26",
+    "label_compact": "2026.08.28-2026.09.26"
   },
   "source_url": "https://github.com/trending?since=monthly",
   "count": 22,
@@ -18,11 +18,11 @@
       "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "language": "JavaScript",
-      "stars_total": 42561,
-      "forks_total": 8661,
+      "stars_total": 43157,
+      "forks_total": 8778,
       "contributors_visible": 0,
-      "period_stars": 41715,
-      "period_stars_label": "41,715 stars 2026.08.27-2026.09.25"
+      "period_stars": 40403,
+      "period_stars_label": "40,403 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars_total": 21368,
-      "forks_total": 1232,
+      "stars_total": 21705,
+      "forks_total": 1251,
       "contributors_visible": 0,
-      "period_stars": 18441,
-      "period_stars_label": "18,441 stars 2026.08.27-2026.09.25"
+      "period_stars": 18769,
+      "period_stars_label": "18,769 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 3,
@@ -46,11 +46,11 @@
       "url": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "stars_total": 71315,
-      "forks_total": 4797,
+      "stars_total": 71859,
+      "forks_total": 4840,
       "contributors_visible": 0,
-      "period_stars": 56351,
-      "period_stars_label": "56,351 stars 2026.08.27-2026.09.25"
+      "period_stars": 56232,
+      "period_stars_label": "56,232 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 4,
@@ -60,11 +60,11 @@
       "url": "https://github.com/THU-MAIC/OpenMAIC",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "stars_total": 38971,
-      "forks_total": 6077,
+      "stars_total": 39066,
+      "forks_total": 6082,
       "contributors_visible": 0,
-      "period_stars": 18202,
-      "period_stars_label": "18,202 stars 2026.08.27-2026.09.25"
+      "period_stars": 18282,
+      "period_stars_label": "18,282 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 5,
@@ -74,11 +74,11 @@
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars_total": 40907,
-      "forks_total": 2939,
+      "stars_total": 41402,
+      "forks_total": 2978,
       "contributors_visible": 0,
-      "period_stars": 19583,
-      "period_stars_label": "19,583 stars 2026.08.27-2026.09.25"
+      "period_stars": 20100,
+      "period_stars_label": "20,100 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 6,
@@ -88,11 +88,11 @@
       "url": "https://github.com/superdesigndev/treg",
       "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "language": "Python",
-      "stars_total": 3213,
-      "forks_total": 268,
+      "stars_total": 3409,
+      "forks_total": 279,
       "contributors_visible": 0,
-      "period_stars": 2413,
-      "period_stars_label": "2,413 stars 2026.08.27-2026.09.25"
+      "period_stars": 2725,
+      "period_stars_label": "2,725 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 7,
@@ -102,11 +102,11 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars_total": 35297,
-      "forks_total": 4157,
+      "stars_total": 35553,
+      "forks_total": 4177,
       "contributors_visible": 0,
-      "period_stars": 23857,
-      "period_stars_label": "23,857 stars 2026.08.27-2026.09.25"
+      "period_stars": 24027,
+      "period_stars_label": "24,027 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 8,
@@ -116,95 +116,95 @@
       "url": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "language": "Python",
-      "stars_total": 51021,
-      "forks_total": 2944,
+      "stars_total": 51244,
+      "forks_total": 2955,
       "contributors_visible": 0,
-      "period_stars": 27473,
-      "period_stars_label": "27,473 stars 2026.08.27-2026.09.25"
+      "period_stars": 27288,
+      "period_stars_label": "27,288 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 9,
-      "owner": "cursor",
-      "name": "plugins",
-      "full_name": "cursor/plugins",
-      "url": "https://github.com/cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "stars_total": 8578,
-      "forks_total": 807,
-      "contributors_visible": 0,
-      "period_stars": 3861,
-      "period_stars_label": "3,861 stars 2026.08.27-2026.09.25"
-    },
-    {
-      "rank": 10,
       "owner": "magnitudedev",
       "name": "magnitude",
       "full_name": "magnitudedev/magnitude",
       "url": "https://github.com/magnitudedev/magnitude",
       "description": "Open source inference engine for the hardware you already own. Profiles your machine, recommends the best open models for it, and tunes them for your exact hardware. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.",
       "language": "TypeScript",
-      "stars_total": 5044,
-      "forks_total": 376,
+      "stars_total": 5122,
+      "forks_total": 374,
       "contributors_visible": 0,
-      "period_stars": 3518,
-      "period_stars_label": "3,518 stars 2026.08.27-2026.09.25"
+      "period_stars": 3598,
+      "period_stars_label": "3,598 stars 2026.08.28-2026.09.26"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "owner": "Lakr233",
       "name": "vphone-cli",
       "full_name": "Lakr233/vphone-cli",
       "url": "https://github.com/Lakr233/vphone-cli",
       "description": null,
       "language": "Swift",
-      "stars_total": 14355,
-      "forks_total": 1694,
+      "stars_total": 14431,
+      "forks_total": 1696,
       "contributors_visible": 0,
-      "period_stars": 6390,
-      "period_stars_label": "6,390 stars 2026.08.27-2026.09.25"
+      "period_stars": 6398,
+      "period_stars_label": "6,398 stars 2026.08.28-2026.09.26"
     },
     {
-      "rank": 12,
-      "owner": "JetBrains",
-      "name": "go-modern-guidelines",
-      "full_name": "JetBrains/go-modern-guidelines",
-      "url": "https://github.com/JetBrains/go-modern-guidelines",
-      "description": "Help AI coding agents write modern Go",
-      "language": "Go",
-      "stars_total": 3710,
-      "forks_total": 122,
-      "contributors_visible": 0,
-      "period_stars": 2858,
-      "period_stars_label": "2,858 stars 2026.08.27-2026.09.25"
-    },
-    {
-      "rank": 13,
-      "owner": "Tencent",
-      "name": "WeKnora",
-      "full_name": "Tencent/WeKnora",
-      "url": "https://github.com/Tencent/WeKnora",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "language": "Go",
-      "stars_total": 29797,
-      "forks_total": 4005,
-      "contributors_visible": 0,
-      "period_stars": 9356,
-      "period_stars_label": "9,356 stars 2026.08.27-2026.09.25"
-    },
-    {
-      "rank": 14,
+      "rank": 11,
       "owner": "tech-leads-club",
       "name": "agent-skills",
       "full_name": "tech-leads-club/agent-skills",
       "url": "https://github.com/tech-leads-club/agent-skills",
       "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
       "language": "TypeScript",
-      "stars_total": 6776,
-      "forks_total": 549,
+      "stars_total": 6823,
+      "forks_total": 551,
       "contributors_visible": 0,
-      "period_stars": 1821,
-      "period_stars_label": "1,821 stars 2026.08.27-2026.09.25"
+      "period_stars": 1866,
+      "period_stars_label": "1,866 stars 2026.08.28-2026.09.26"
+    },
+    {
+      "rank": 12,
+      "owner": "cursor",
+      "name": "plugins",
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars_total": 8663,
+      "forks_total": 811,
+      "contributors_visible": 0,
+      "period_stars": 3701,
+      "period_stars_label": "3,701 stars 2026.08.28-2026.09.26"
+    },
+    {
+      "rank": 13,
+      "owner": "every-app",
+      "name": "open-seo",
+      "full_name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars_total": 21111,
+      "forks_total": 2700,
+      "contributors_visible": 0,
+      "period_stars": 7714,
+      "period_stars_label": "7,714 stars 2026.08.28-2026.09.26"
+    },
+    {
+      "rank": 14,
+      "owner": "Tencent",
+      "name": "WeKnora",
+      "full_name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars_total": 30144,
+      "forks_total": 4048,
+      "contributors_visible": 0,
+      "period_stars": 9591,
+      "period_stars_label": "9,591 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 15,
@@ -214,25 +214,25 @@
       "url": "https://github.com/google-research/timesfm",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "language": "Python",
-      "stars_total": 33660,
+      "stars_total": 33718,
       "forks_total": 3248,
       "contributors_visible": 0,
-      "period_stars": 5545,
-      "period_stars_label": "5,545 stars 2026.08.27-2026.09.25"
+      "period_stars": 5561,
+      "period_stars_label": "5,561 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 16,
-      "owner": "every-app",
-      "name": "open-seo",
-      "full_name": "every-app/open-seo",
-      "url": "https://github.com/every-app/open-seo",
-      "description": "Open source alternative to Semrush and Ahrefs",
-      "language": "TypeScript",
-      "stars_total": 20950,
-      "forks_total": 2682,
+      "owner": "anthropics",
+      "name": "financial-services",
+      "full_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": null,
+      "language": "Python",
+      "stars_total": 37579,
+      "forks_total": 5435,
       "contributors_visible": 0,
-      "period_stars": 7668,
-      "period_stars_label": "7,668 stars 2026.08.27-2026.09.25"
+      "period_stars": 3088,
+      "period_stars_label": "3,088 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 17,
@@ -242,11 +242,11 @@
       "url": "https://github.com/jingyaogong/minimind",
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "language": "Python",
-      "stars_total": 62503,
-      "forks_total": 8129,
+      "stars_total": 62589,
+      "forks_total": 8136,
       "contributors_visible": 0,
-      "period_stars": 7689,
-      "period_stars_label": "7,689 stars 2026.08.27-2026.09.25"
+      "period_stars": 7756,
+      "period_stars_label": "7,756 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 18,
@@ -256,11 +256,11 @@
       "url": "https://github.com/Tencent/BrowserSkill",
       "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
       "language": "TypeScript",
-      "stars_total": 7154,
-      "forks_total": 514,
+      "stars_total": 7273,
+      "forks_total": 523,
       "contributors_visible": 0,
-      "period_stars": 5854,
-      "period_stars_label": "5,854 stars 2026.08.27-2026.09.25"
+      "period_stars": 5954,
+      "period_stars_label": "5,954 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 19,
@@ -270,25 +270,25 @@
       "url": "https://github.com/melgarafael/DeskcommCRM",
       "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
       "language": "TypeScript",
-      "stars_total": 3729,
-      "forks_total": 931,
+      "stars_total": 3901,
+      "forks_total": 962,
       "contributors_visible": 0,
-      "period_stars": 3225,
-      "period_stars_label": "3,225 stars 2026.08.27-2026.09.25"
+      "period_stars": 3286,
+      "period_stars_label": "3,286 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 20,
-      "owner": "omacom",
-      "name": "omarchy",
-      "full_name": "omacom/omarchy",
-      "url": "https://github.com/omacom/omarchy",
-      "description": "Beautiful, Modern & Opinionated Linux",
-      "language": "Shell",
-      "stars_total": 43057,
-      "forks_total": 4999,
+      "owner": "DietrichGebert",
+      "name": "ponytail",
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars_total": 146066,
+      "forks_total": 7837,
       "contributors_visible": 0,
-      "period_stars": 13665,
-      "period_stars_label": "13,665 stars 2026.08.27-2026.09.25"
+      "period_stars": 36118,
+      "period_stars_label": "36,118 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 21,
@@ -298,25 +298,25 @@
       "url": "https://github.com/ever-co/ever-gauzy",
       "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
       "language": "TypeScript",
-      "stars_total": 7929,
-      "forks_total": 1181,
+      "stars_total": 8018,
+      "forks_total": 1183,
       "contributors_visible": 0,
-      "period_stars": 3770,
-      "period_stars_label": "3,770 stars 2026.08.27-2026.09.25"
+      "period_stars": 3850,
+      "period_stars_label": "3,850 stars 2026.08.28-2026.09.26"
     },
     {
       "rank": 22,
-      "owner": "K-Dense-AI",
-      "name": "scientific-agent-skills",
-      "full_name": "K-Dense-AI/scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "stars_total": 46573,
-      "forks_total": 4206,
+      "owner": "abue-ammar",
+      "name": "tinycast",
+      "full_name": "abue-ammar/tinycast",
+      "url": "https://github.com/abue-ammar/tinycast",
+      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+      "language": "Swift",
+      "stars_total": 7485,
+      "forks_total": 367,
       "contributors_visible": 0,
-      "period_stars": 12450,
-      "period_stars_label": "12,450 stars 2026.08.27-2026.09.25"
+      "period_stars": 5678,
+      "period_stars_label": "5,678 stars 2026.08.28-2026.09.26"
     }
   ]
 }
