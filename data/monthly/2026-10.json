@@ -1,11 +1,11 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-10-12T06:16:22Z",
+  "run_date_utc": "2026-10-13T06:56:53Z",
   "period": {
-    "start": "2026-09-13",
-    "end": "2026-10-12",
-    "label_iso": "2026-09-13/2026-10-12",
-    "label_compact": "2026.09.13-2026.10.12"
+    "start": "2026-09-14",
+    "end": "2026-10-13",
+    "label_iso": "2026-09-14/2026-10-13",
+    "label_compact": "2026.09.14-2026.10.13"
   },
   "source_url": "https://github.com/trending?since=monthly",
   "count": 22,
@@ -18,11 +18,11 @@
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars_total": 46295,
-      "forks_total": 3362,
+      "stars_total": 46659,
+      "forks_total": 3389,
       "contributors_visible": 0,
-      "period_stars": 24146,
-      "period_stars_label": "24,146 stars 2026.09.13-2026.10.12"
+      "period_stars": 24317,
+      "period_stars_label": "24,317 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 2,
@@ -32,39 +32,39 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars_total": 59148,
-      "forks_total": 6629,
+      "stars_total": 60902,
+      "forks_total": 6832,
       "contributors_visible": 0,
-      "period_stars": 36012,
-      "period_stars_label": "36,012 stars 2026.09.13-2026.10.12"
+      "period_stars": 37110,
+      "period_stars_label": "37,110 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 3,
-      "owner": "anthropics",
-      "name": "financial-services",
-      "full_name": "anthropics/financial-services",
-      "url": "https://github.com/anthropics/financial-services",
-      "description": null,
-      "language": "Python",
-      "stars_total": 39429,
-      "forks_total": 5586,
-      "contributors_visible": 0,
-      "period_stars": 4698,
-      "period_stars_label": "4,698 stars 2026.09.13-2026.10.12"
-    },
-    {
-      "rank": 4,
       "owner": "paperclipai",
       "name": "paperclip",
       "full_name": "paperclipai/paperclip",
       "url": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
-      "stars_total": 100500,
-      "forks_total": 16920,
+      "stars_total": 101126,
+      "forks_total": 16989,
       "contributors_visible": 0,
-      "period_stars": 19987,
-      "period_stars_label": "19,987 stars 2026.09.13-2026.10.12"
+      "period_stars": 20601,
+      "period_stars_label": "20,601 stars 2026.09.14-2026.10.13"
+    },
+    {
+      "rank": 4,
+      "owner": "anthropics",
+      "name": "financial-services",
+      "full_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": null,
+      "language": "Python",
+      "stars_total": 39594,
+      "forks_total": 5593,
+      "contributors_visible": 0,
+      "period_stars": 4838,
+      "period_stars_label": "4,838 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 5,
@@ -74,11 +74,11 @@
       "url": "https://github.com/vectorize-io/hindsight",
       "description": "Hindsight: Agent Memory That Learns",
       "language": "Python",
-      "stars_total": 48534,
-      "forks_total": 6006,
+      "stars_total": 48938,
+      "forks_total": 6017,
       "contributors_visible": 0,
-      "period_stars": 25187,
-      "period_stars_label": "25,187 stars 2026.09.13-2026.10.12"
+      "period_stars": 25557,
+      "period_stars_label": "25,557 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 6,
@@ -88,11 +88,11 @@
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
-      "stars_total": 277380,
-      "forks_total": 41371,
+      "stars_total": 278090,
+      "forks_total": 41446,
       "contributors_visible": 0,
-      "period_stars": 22438,
-      "period_stars_label": "22,438 stars 2026.09.13-2026.10.12"
+      "period_stars": 22583,
+      "period_stars_label": "22,583 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 7,
@@ -102,11 +102,11 @@
       "url": "https://github.com/anthropics/knowledge-work-plugins",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "language": "Python",
-      "stars_total": 29165,
-      "forks_total": 3311,
+      "stars_total": 29401,
+      "forks_total": 3333,
       "contributors_visible": 0,
-      "period_stars": 5173,
-      "period_stars_label": "5,173 stars 2026.09.13-2026.10.12"
+      "period_stars": 5365,
+      "period_stars_label": "5,365 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 8,
@@ -116,11 +116,11 @@
       "url": "https://github.com/anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "language": "TypeScript",
-      "stars_total": 150271,
-      "forks_total": 26289,
+      "stars_total": 150495,
+      "forks_total": 26323,
       "contributors_visible": 0,
-      "period_stars": 6290,
-      "period_stars_label": "6,290 stars 2026.09.13-2026.10.12"
+      "period_stars": 6422,
+      "period_stars_label": "6,422 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 9,
@@ -130,39 +130,39 @@
       "url": "https://github.com/Tencent/WeKnora",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
-      "stars_total": 33318,
-      "forks_total": 4443,
+      "stars_total": 33623,
+      "forks_total": 4479,
       "contributors_visible": 0,
-      "period_stars": 11116,
-      "period_stars_label": "11,116 stars 2026.09.13-2026.10.12"
+      "period_stars": 11159,
+      "period_stars_label": "11,159 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 10,
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "full_name": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
-      "language": "TypeScript",
-      "stars_total": 61172,
-      "forks_total": 5467,
-      "contributors_visible": 0,
-      "period_stars": 11993,
-      "period_stars_label": "11,993 stars 2026.09.13-2026.10.12"
-    },
-    {
-      "rank": 11,
       "owner": "TencentCloud",
       "name": "Octop",
       "full_name": "TencentCloud/Octop",
       "url": "https://github.com/TencentCloud/Octop",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "language": "Python",
-      "stars_total": 8744,
-      "forks_total": 1070,
+      "stars_total": 8994,
+      "forks_total": 1107,
       "contributors_visible": 0,
-      "period_stars": 7118,
-      "period_stars_label": "7,118 stars 2026.09.13-2026.10.12"
+      "period_stars": 7333,
+      "period_stars_label": "7,333 stars 2026.09.14-2026.10.13"
+    },
+    {
+      "rank": 11,
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars_total": 62011,
+      "forks_total": 5552,
+      "contributors_visible": 0,
+      "period_stars": 12662,
+      "period_stars_label": "12,662 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 12,
@@ -172,11 +172,11 @@
       "url": "https://github.com/agent-substrate/substrate",
       "description": "Agent Substrate: the core system",
       "language": "Go",
-      "stars_total": 4888,
-      "forks_total": 550,
+      "stars_total": 4985,
+      "forks_total": 557,
       "contributors_visible": 0,
-      "period_stars": 3014,
-      "period_stars_label": "3,014 stars 2026.09.13-2026.10.12"
+      "period_stars": 3104,
+      "period_stars_label": "3,104 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 13,
@@ -186,11 +186,11 @@
       "url": "https://github.com/NVIDIA/OpenShell",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "language": "Rust",
-      "stars_total": 15881,
-      "forks_total": 1766,
+      "stars_total": 16020,
+      "forks_total": 1775,
       "contributors_visible": 0,
-      "period_stars": 7318,
-      "period_stars_label": "7,318 stars 2026.09.13-2026.10.12"
+      "period_stars": 7457,
+      "period_stars_label": "7,457 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 14,
@@ -200,25 +200,25 @@
       "url": "https://github.com/JustVugg/colibri",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
-      "stars_total": 41315,
-      "forks_total": 4553,
+      "stars_total": 41588,
+      "forks_total": 4593,
       "contributors_visible": 0,
-      "period_stars": 13726,
-      "period_stars_label": "13,726 stars 2026.09.13-2026.10.12"
+      "period_stars": 13470,
+      "period_stars_label": "13,470 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 15,
-      "owner": "trycua",
-      "name": "cua",
-      "full_name": "trycua/cua",
-      "url": "https://github.com/trycua/cua",
-      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-      "language": "Rust",
-      "stars_total": 29418,
-      "forks_total": 2092,
+      "owner": "tashfeenahmed",
+      "name": "freellmapi",
+      "full_name": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "stars_total": 34265,
+      "forks_total": 4686,
       "contributors_visible": 0,
-      "period_stars": 6994,
-      "period_stars_label": "6,994 stars 2026.09.13-2026.10.12"
+      "period_stars": 8213,
+      "period_stars_label": "8,213 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 16,
@@ -228,25 +228,25 @@
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars_total": 105166,
-      "forks_total": 10982,
+      "stars_total": 105787,
+      "forks_total": 11037,
       "contributors_visible": 0,
-      "period_stars": 11891,
-      "period_stars_label": "11,891 stars 2026.09.13-2026.10.12"
+      "period_stars": 12396,
+      "period_stars_label": "12,396 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 17,
-      "owner": "tashfeenahmed",
-      "name": "freellmapi",
-      "full_name": "tashfeenahmed/freellmapi",
-      "url": "https://github.com/tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "stars_total": 33440,
-      "forks_total": 4612,
+      "owner": "trycua",
+      "name": "cua",
+      "full_name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "Rust",
+      "stars_total": 29546,
+      "forks_total": 2103,
       "contributors_visible": 0,
-      "period_stars": 7925,
-      "period_stars_label": "7,925 stars 2026.09.13-2026.10.12"
+      "period_stars": 7084,
+      "period_stars_label": "7,084 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 18,
@@ -256,11 +256,11 @@
       "url": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "language": "TypeScript",
-      "stars_total": 26731,
-      "forks_total": 1918,
+      "stars_total": 27548,
+      "forks_total": 1956,
       "contributors_visible": 0,
-      "period_stars": 4584,
-      "period_stars_label": "4,584 stars 2026.09.13-2026.10.12"
+      "period_stars": 4706,
+      "period_stars_label": "4,706 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 19,
@@ -270,53 +270,53 @@
       "url": "https://github.com/cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars_total": 10946,
-      "forks_total": 1054,
+      "stars_total": 11112,
+      "forks_total": 1081,
       "contributors_visible": 0,
-      "period_stars": 3610,
-      "period_stars_label": "3,610 stars 2026.09.13-2026.10.12"
+      "period_stars": 3707,
+      "period_stars_label": "3,707 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 20,
-      "owner": "bilawalsidhu",
-      "name": "gods-eye-view",
-      "full_name": "bilawalsidhu/gods-eye-view",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "language": "JavaScript",
-      "stars_total": 52137,
-      "forks_total": 10432,
-      "contributors_visible": 0,
-      "period_stars": 25143,
-      "period_stars_label": "25,143 stars 2026.09.13-2026.10.12"
-    },
-    {
-      "rank": 21,
       "owner": "NationalSecurityAgency",
       "name": "ghidra",
       "full_name": "NationalSecurityAgency/ghidra",
       "url": "https://github.com/NationalSecurityAgency/ghidra",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "language": "Java",
-      "stars_total": 83798,
-      "forks_total": 9321,
+      "stars_total": 85554,
+      "forks_total": 9504,
       "contributors_visible": 0,
-      "period_stars": 8451,
-      "period_stars_label": "8,451 stars 2026.09.13-2026.10.12"
+      "period_stars": 9722,
+      "period_stars_label": "9,722 stars 2026.09.14-2026.10.13"
+    },
+    {
+      "rank": 21,
+      "owner": "bilawalsidhu",
+      "name": "gods-eye-view",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars_total": 54169,
+      "forks_total": 10663,
+      "contributors_visible": 0,
+      "period_stars": 24627,
+      "period_stars_label": "24,627 stars 2026.09.14-2026.10.13"
     },
     {
       "rank": 22,
-      "owner": "Panniantong",
-      "name": "Agent-Reach",
-      "full_name": "Panniantong/Agent-Reach",
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "owner": "rohitg00",
+      "name": "ai-engineering-from-scratch",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
       "language": "Python",
-      "stars_total": 96190,
-      "forks_total": 8422,
+      "stars_total": 68256,
+      "forks_total": 11953,
       "contributors_visible": 0,
-      "period_stars": 16862,
-      "period_stars_label": "16,862 stars 2026.09.13-2026.10.12"
+      "period_stars": 13880,
+      "period_stars_label": "13,880 stars 2026.09.14-2026.10.13"
     }
   ]
 }
