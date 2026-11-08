@@ -1,14 +1,14 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-11-07T06:19:35Z",
+  "run_date_utc": "2026-11-08T06:26:11Z",
   "period": {
-    "start": "2026-10-09",
-    "end": "2026-11-07",
-    "label_iso": "2026-10-09/2026-11-07",
-    "label_compact": "2026.10.09-2026.11.07"
+    "start": "2026-10-10",
+    "end": "2026-11-08",
+    "label_iso": "2026-10-10/2026-11-08",
+    "label_compact": "2026.10.10-2026.11.08"
   },
   "source_url": "https://github.com/trending?since=monthly",
-  "count": 13,
+  "count": 10,
   "items": [
     {
       "rank": 1,
@@ -18,67 +18,67 @@
       "url": "https://github.com/morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "language": "TypeScript",
-      "stars_total": 438673,
-      "forks_total": 108692,
+      "stars_total": 441609,
+      "forks_total": 109240,
       "contributors_visible": 0,
-      "period_stars": 431436,
-      "period_stars_label": "431,436 stars 2026.10.09-2026.11.07"
+      "period_stars": 429845,
+      "period_stars_label": "429,845 stars 2026.10.10-2026.11.08"
     },
     {
       "rank": 2,
-      "owner": "storytold",
-      "name": "artcraft",
-      "full_name": "storytold/artcraft",
-      "url": "https://github.com/storytold/artcraft",
-      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-      "language": "Rust",
-      "stars_total": 39321,
-      "forks_total": 6196,
-      "contributors_visible": 0,
-      "period_stars": 36600,
-      "period_stars_label": "36,600 stars 2026.10.09-2026.11.07"
-    },
-    {
-      "rank": 3,
-      "owner": "boykopovar",
-      "name": "AnyPS5",
-      "full_name": "boykopovar/AnyPS5",
-      "url": "https://github.com/boykopovar/AnyPS5",
-      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-      "language": "C++",
-      "stars_total": 51849,
-      "forks_total": 4936,
-      "contributors_visible": 0,
-      "period_stars": 46561,
-      "period_stars_label": "46,561 stars 2026.10.09-2026.11.07"
-    },
-    {
-      "rank": 4,
       "owner": "Nutlope",
       "name": "hallmark",
       "full_name": "Nutlope/hallmark",
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars_total": 49760,
-      "forks_total": 2637,
+      "stars_total": 50417,
+      "forks_total": 2672,
       "contributors_visible": 0,
-      "period_stars": 19792,
-      "period_stars_label": "19,792 stars 2026.10.09-2026.11.07"
+      "period_stars": 20523,
+      "period_stars_label": "20,523 stars 2026.10.10-2026.11.08"
     },
     {
-      "rank": 5,
+      "rank": 3,
+      "owner": "storytold",
+      "name": "artcraft",
+      "full_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "stars_total": 39632,
+      "forks_total": 6229,
+      "contributors_visible": 0,
+      "period_stars": 35633,
+      "period_stars_label": "35,633 stars 2026.10.10-2026.11.08"
+    },
+    {
+      "rank": 4,
       "owner": "cloudflare",
       "name": "security-audit-skill",
       "full_name": "cloudflare/security-audit-skill",
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars_total": 64416,
-      "forks_total": 4173,
+      "stars_total": 66031,
+      "forks_total": 4296,
       "contributors_visible": 0,
-      "period_stars": 38004,
-      "period_stars_label": "38,004 stars 2026.10.09-2026.11.07"
+      "period_stars": 39571,
+      "period_stars_label": "39,571 stars 2026.10.10-2026.11.08"
+    },
+    {
+      "rank": 5,
+      "owner": "boykopovar",
+      "name": "AnyPS5",
+      "full_name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars_total": 52123,
+      "forks_total": 4964,
+      "contributors_visible": 0,
+      "period_stars": 43690,
+      "period_stars_label": "43,690 stars 2026.10.10-2026.11.08"
     },
     {
       "rank": 6,
@@ -88,11 +88,11 @@
       "url": "https://github.com/debpalash/VoiceStudio",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
-      "stars_total": 103094,
-      "forks_total": 11449,
+      "stars_total": 104104,
+      "forks_total": 11576,
       "contributors_visible": 0,
-      "period_stars": 49078,
-      "period_stars_label": "49,078 stars 2026.10.09-2026.11.07"
+      "period_stars": 49671,
+      "period_stars_label": "49,671 stars 2026.10.10-2026.11.08"
     },
     {
       "rank": 7,
@@ -102,11 +102,11 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "description": "Write HTML. Render video. Built for agents.",
       "language": "TypeScript",
-      "stars_total": 80197,
-      "forks_total": 7397,
+      "stars_total": 80676,
+      "forks_total": 7446,
       "contributors_visible": 0,
-      "period_stars": 22718,
-      "period_stars_label": "22,718 stars 2026.10.09-2026.11.07"
+      "period_stars": 22531,
+      "period_stars_label": "22,531 stars 2026.10.10-2026.11.08"
     },
     {
       "rank": 8,
@@ -116,11 +116,11 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": null,
       "language": "TypeScript",
-      "stars_total": 50102,
-      "forks_total": 9776,
+      "stars_total": 51515,
+      "forks_total": 9908,
       "contributors_visible": 0,
-      "period_stars": 23406,
-      "period_stars_label": "23,406 stars 2026.10.09-2026.11.07"
+      "period_stars": 24785,
+      "period_stars_label": "24,785 stars 2026.10.10-2026.11.08"
     },
     {
       "rank": 9,
@@ -130,67 +130,25 @@
       "url": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "language": "TypeScript",
-      "stars_total": 114114,
-      "forks_total": 9901,
+      "stars_total": 114595,
+      "forks_total": 9940,
       "contributors_visible": 0,
-      "period_stars": 17612,
-      "period_stars_label": "17,612 stars 2026.10.09-2026.11.07"
+      "period_stars": 17493,
+      "period_stars_label": "17,493 stars 2026.10.10-2026.11.08"
     },
     {
       "rank": 10,
-      "owner": "NationalSecurityAgency",
-      "name": "ghidra",
-      "full_name": "NationalSecurityAgency/ghidra",
-      "url": "https://github.com/NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "language": "Java",
-      "stars_total": 98430,
-      "forks_total": 11146,
-      "contributors_visible": 0,
-      "period_stars": 17642,
-      "period_stars_label": "17,642 stars 2026.10.09-2026.11.07"
-    },
-    {
-      "rank": 11,
       "owner": "pbakaus",
       "name": "impeccable",
       "full_name": "pbakaus/impeccable",
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars_total": 104959,
-      "forks_total": 6237,
+      "stars_total": 105697,
+      "forks_total": 6282,
       "contributors_visible": 0,
-      "period_stars": 27610,
-      "period_stars_label": "27,610 stars 2026.10.09-2026.11.07"
-    },
-    {
-      "rank": 12,
-      "owner": "HKUDS",
-      "name": "DeepTutor",
-      "full_name": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
-      "language": "Python",
-      "stars_total": 56072,
-      "forks_total": 6855,
-      "contributors_visible": 0,
-      "period_stars": 15214,
-      "period_stars_label": "15,214 stars 2026.10.09-2026.11.07"
-    },
-    {
-      "rank": 13,
-      "owner": "anthropics",
-      "name": "knowledge-work-plugins",
-      "full_name": "anthropics/knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "stars_total": 35039,
-      "forks_total": 3856,
-      "contributors_visible": 0,
-      "period_stars": 8836,
-      "period_stars_label": "8,836 stars 2026.10.09-2026.11.07"
+      "period_stars": 27680,
+      "period_stars_label": "27,680 stars 2026.10.10-2026.11.08"
     }
   ]
 }
