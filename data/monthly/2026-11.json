@@ -1,14 +1,14 @@
 {
   "granularity": "monthly",
-  "run_date_utc": "2026-11-17T08:14:42Z",
+  "run_date_utc": "2026-11-18T07:48:11Z",
   "period": {
-    "start": "2026-10-19",
-    "end": "2026-11-17",
-    "label_iso": "2026-10-19/2026-11-17",
-    "label_compact": "2026.10.19-2026.11.17"
+    "start": "2026-10-20",
+    "end": "2026-11-18",
+    "label_iso": "2026-10-20/2026-11-18",
+    "label_compact": "2026.10.20-2026.11.18"
   },
   "source_url": "https://github.com/trending?since=monthly",
-  "count": 15,
+  "count": 14,
   "items": [
     {
       "rank": 1,
@@ -18,11 +18,11 @@
       "url": "https://github.com/Nutlope/hallmark",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "language": "CSS",
-      "stars_total": 56366,
-      "forks_total": 3032,
+      "stars_total": 57124,
+      "forks_total": 3092,
       "contributors_visible": 0,
-      "period_stars": 25988,
-      "period_stars_label": "25,988 stars 2026.10.19-2026.11.17"
+      "period_stars": 26594,
+      "period_stars_label": "26,594 stars 2026.10.20-2026.11.18"
     },
     {
       "rank": 2,
@@ -32,11 +32,11 @@
       "url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars_total": 74190,
-      "forks_total": 4968,
+      "stars_total": 74997,
+      "forks_total": 5034,
       "contributors_visible": 0,
-      "period_stars": 43924,
-      "period_stars_label": "43,924 stars 2026.10.19-2026.11.17"
+      "period_stars": 44314,
+      "period_stars_label": "44,314 stars 2026.10.20-2026.11.18"
     },
     {
       "rank": 3,
@@ -46,39 +46,39 @@
       "url": "https://github.com/pingdotgg/t3code",
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "language": "TypeScript",
-      "stars_total": 63224,
-      "forks_total": 11198,
+      "stars_total": 64497,
+      "forks_total": 11341,
       "contributors_visible": 0,
-      "period_stars": 34691,
-      "period_stars_label": "34,691 stars 2026.10.19-2026.11.17"
+      "period_stars": 35748,
+      "period_stars_label": "35,748 stars 2026.10.20-2026.11.18"
     },
     {
       "rank": 4,
-      "owner": "thedotmack",
-      "name": "claude-mem",
-      "full_name": "thedotmack/claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "language": "TypeScript",
-      "stars_total": 117799,
-      "forks_total": 10236,
-      "contributors_visible": 0,
-      "period_stars": 17074,
-      "period_stars_label": "17,074 stars 2026.10.19-2026.11.17"
-    },
-    {
-      "rank": 5,
       "owner": "anthropics",
       "name": "skills",
       "full_name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars_total": 196283,
-      "forks_total": 23035,
+      "stars_total": 196907,
+      "forks_total": 23072,
       "contributors_visible": 0,
-      "period_stars": 14817,
-      "period_stars_label": "14,817 stars 2026.10.19-2026.11.17"
+      "period_stars": 15351,
+      "period_stars_label": "15,351 stars 2026.10.20-2026.11.18"
+    },
+    {
+      "rank": 5,
+      "owner": "thedotmack",
+      "name": "claude-mem",
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars_total": 118074,
+      "forks_total": 10258,
+      "contributors_visible": 0,
+      "period_stars": 17236,
+      "period_stars_label": "17,236 stars 2026.10.20-2026.11.18"
     },
     {
       "rank": 6,
@@ -88,11 +88,11 @@
       "url": "https://github.com/pbakaus/impeccable",
       "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
       "language": "Rust",
-      "stars_total": 111614,
-      "forks_total": 6666,
+      "stars_total": 112443,
+      "forks_total": 6701,
       "contributors_visible": 0,
-      "period_stars": 29881,
-      "period_stars_label": "29,881 stars 2026.10.19-2026.11.17"
+      "period_stars": 30177,
+      "period_stars_label": "30,177 stars 2026.10.20-2026.11.18"
     },
     {
       "rank": 7,
@@ -102,25 +102,25 @@
       "url": "https://github.com/HKUDS/DeepTutor",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
       "language": "Python",
-      "stars_total": 59886,
-      "forks_total": 7253,
+      "stars_total": 60213,
+      "forks_total": 7288,
       "contributors_visible": 0,
-      "period_stars": 18533,
-      "period_stars_label": "18,533 stars 2026.10.19-2026.11.17"
+      "period_stars": 18753,
+      "period_stars_label": "18,753 stars 2026.10.20-2026.11.18"
     },
     {
       "rank": 8,
-      "owner": "heygen-com",
-      "name": "hyperframes",
-      "full_name": "heygen-com/hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "description": "Write HTML. Render video. Built for agents.",
+      "owner": "backnotprop",
+      "name": "plannotator",
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars_total": 85449,
-      "forks_total": 7917,
+      "stars_total": 13201,
+      "forks_total": 1322,
       "contributors_visible": 0,
-      "period_stars": 20459,
-      "period_stars_label": "20,459 stars 2026.10.19-2026.11.17"
+      "period_stars": 3475,
+      "period_stars_label": "3,475 stars 2026.10.20-2026.11.18"
     },
     {
       "rank": 9,
@@ -130,95 +130,81 @@
       "url": "https://github.com/sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars_total": 113389,
-      "forks_total": 13058,
+      "stars_total": 113920,
+      "forks_total": 13106,
       "contributors_visible": 0,
-      "period_stars": 19079,
-      "period_stars_label": "19,079 stars 2026.10.19-2026.11.17"
+      "period_stars": 19596,
+      "period_stars_label": "19,596 stars 2026.10.20-2026.11.18"
     },
     {
       "rank": 10,
+      "owner": "heygen-com",
+      "name": "hyperframes",
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars_total": 86156,
+      "forks_total": 7982,
+      "contributors_visible": 0,
+      "period_stars": 20425,
+      "period_stars_label": "20,425 stars 2026.10.20-2026.11.18"
+    },
+    {
+      "rank": 11,
       "owner": "Leonxlnx",
       "name": "taste-skill",
       "full_name": "Leonxlnx/taste-skill",
       "url": "https://github.com/Leonxlnx/taste-skill",
       "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
       "language": "JavaScript",
-      "stars_total": 117156,
-      "forks_total": 7839,
+      "stars_total": 117980,
+      "forks_total": 7892,
       "contributors_visible": 0,
-      "period_stars": 19384,
-      "period_stars_label": "19,384 stars 2026.10.19-2026.11.17"
+      "period_stars": 19688,
+      "period_stars_label": "19,688 stars 2026.10.20-2026.11.18"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "owner": "AgriciDaniel",
       "name": "claude-seo",
       "full_name": "AgriciDaniel/claude-seo",
       "url": "https://github.com/AgriciDaniel/claude-seo",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "language": "Python",
-      "stars_total": 30156,
-      "forks_total": 3789,
+      "stars_total": 30479,
+      "forks_total": 3803,
       "contributors_visible": 0,
-      "period_stars": 10989,
-      "period_stars_label": "10,989 stars 2026.10.19-2026.11.17"
-    },
-    {
-      "rank": 12,
-      "owner": "anthropics",
-      "name": "knowledge-work-plugins",
-      "full_name": "anthropics/knowledge-work-plugins",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "stars_total": 36340,
-      "forks_total": 4017,
-      "contributors_visible": 0,
-      "period_stars": 6537,
-      "period_stars_label": "6,537 stars 2026.10.19-2026.11.17"
+      "period_stars": 11246,
+      "period_stars_label": "11,246 stars 2026.10.20-2026.11.18"
     },
     {
       "rank": 13,
-      "owner": "backnotprop",
-      "name": "plannotator",
-      "full_name": "backnotprop/plannotator",
-      "url": "https://github.com/backnotprop/plannotator",
-      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "language": "TypeScript",
-      "stars_total": 12808,
-      "forks_total": 1272,
-      "contributors_visible": 0,
-      "period_stars": 2848,
-      "period_stars_label": "2,848 stars 2026.10.19-2026.11.17"
-    },
-    {
-      "rank": 14,
-      "owner": "Vincentwei1021",
-      "name": "video-shotcraft",
-      "full_name": "Vincentwei1021/video-shotcraft",
-      "url": "https://github.com/Vincentwei1021/video-shotcraft",
-      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
-      "language": "TypeScript",
-      "stars_total": 20787,
-      "forks_total": 1918,
-      "contributors_visible": 0,
-      "period_stars": 8363,
-      "period_stars_label": "8,363 stars 2026.10.19-2026.11.17"
-    },
-    {
-      "rank": 15,
       "owner": "vercel-labs",
       "name": "agent-browser",
       "full_name": "vercel-labs/agent-browser",
       "url": "https://github.com/vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars_total": 52174,
-      "forks_total": 3648,
+      "stars_total": 52468,
+      "forks_total": 3669,
       "contributors_visible": 0,
-      "period_stars": 7943,
-      "period_stars_label": "7,943 stars 2026.10.19-2026.11.17"
+      "period_stars": 8282,
+      "period_stars_label": "8,282 stars 2026.10.20-2026.11.18"
+    },
+    {
+      "rank": 14,
+      "owner": "anthropics",
+      "name": "knowledge-work-plugins",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars_total": 36474,
+      "forks_total": 4024,
+      "contributors_visible": 0,
+      "period_stars": 6565,
+      "period_stars_label": "6,565 stars 2026.10.20-2026.11.18"
     }
   ]
 }
